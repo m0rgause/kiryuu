@@ -1,0 +1,5551 @@
+@media only screen and (max-width:899px) {
+    @keyframes animatetop {
+        from {
+            top: -60px;
+            opacity: 0
+        }
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+    @keyframes animatekomen {
+        from {
+            bottom: -200px;
+            opacity: 1
+        }
+        to {
+            bottom: 0;
+            opacity: 1
+        }
+    }
+    @keyframes animatebottom {
+        from {
+            bottom: -100px;
+            opacity: 0
+        }
+        to {
+            bottom: 0;
+            opacity: 1
+        }
+    }
+    @keyframes lazy {
+        from {
+            bottom: -100px;
+            opacity: 0
+        }
+        to {
+            bottom: 0;
+            opacity: 1
+        }
+    }
+    body {
+        margin: 0;
+        font-family: arial;
+        font-size: 13.5px;
+        line-height: 20px;
+        color: #fff;
+        background: #16151d
+    }
+    a {
+        color: #fff;
+        text-decoration: none
+    }
+    #header {
+        width: 100%;
+        position: relative;
+        z-index: 11;
+        overflow: hidden
+    }
+    .hd2 {
+        background: #222;
+        padding: 20px 0;
+        position: relative;
+        border-bottom: 2px solid #4164b2;
+        overflow: hidden
+    }
+    .perapih {
+        width: 1000px;
+        margin: 0 auto;
+        max-width: 100%
+    }
+    .logo {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 9999 0;
+        -ms-flex: 1 9999 0;
+        flex: 1 9999 0;
+        min-width: 40px;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+        padding-top: 0;
+        background: 0 0;
+        text-align: unset
+    }
+    .logo {
+        width: 45px;
+        float: left;
+        margin-left: 15px;
+        border-right: 2px solid #e8e8e8;
+        margin-right: 15px
+    }
+    .logo a {
+        overflow: hidden;
+        display: flex
+    }
+    .logo svg {
+        color: #4164b2;
+        height: 37px;
+        float: left
+    }
+    .logo a span {
+        display: none
+    }
+    form#search_box {
+        float: left;
+        width: calc(100% - 95px);
+        display: flex
+    }
+    #search_box input {
+        padding: 0;
+        height: 35px;
+        float: left;
+        width: calc(100% - 55px);
+        text-align: center;
+        border-radius: 3px;
+        background: #16151d;
+        border: 1px solid #16151d;
+        color: #fff;
+    }
+    #search_box input.search_icon {
+        display: block;
+        width: auto;
+        margin-left: 10px;
+        height: 35px;
+        padding: 0 10px;
+        background: #4c4c4c;
+        color: #fff;
+        font-weight: 700;
+        border: none
+    }
+    ul.second_nav {
+        padding: 0;
+        float: left;
+        width: 100%;
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        margin: 0;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 0;
+        -ms-flex: 1 0 0;
+        flex: 1 0 0;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        list-style: none;
+        justify-content: flex-end
+    }
+    ul.second_nav li {
+        margin: 0;
+        margin-top: 35px;
+        width: 33.333%;
+        margin-bottom: 10px;
+        max-width: unset;
+        padding-bottom: 2px;
+        font-family: segoe ui;
+        font-weight: 700;
+        text-align: center
+    }
+    ul.second_nav li svg {
+        height: 20px
+    }
+    ul.second_nav li span {
+        text-align: center;
+        width: 100%;
+        float: left;
+        font-size: 19px
+    }
+    nav {
+        /* overflow: auto; */
+        width: 100%;
+        box-shadow: unset;
+        background: #222
+    }
+    nav ul {
+        width: 820px;
+        margin: 0 auto;
+        list-style: none;
+        overflow: hidden;
+        padding: 0
+    }
+    nav ul li {
+        overflow: hidden;
+        float: left
+    }
+    nav ul li a {
+        padding: 5px 10px;
+        margin: 10px;
+        font-size: 14px;
+        padding-right: 10px!important;
+        display: grid;
+        border-radius: 2px;
+        color: #fff;
+        font-weight: 600;
+        font-family: segoe ui;
+        text-align: center;
+        background: #4164b2;
+        margin-right: 1px;
+        float: left
+    }
+    nav ul li svg {
+        height: 15px;
+        margin: 0 auto;
+        color: #4164b2;
+        margin-bottom: 2px
+    }
+    .cv {
+        height: 450px;
+        background-color: #eee;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        max-height: 200px;
+        box-shadow: rgba(0, 0, 0, .2) 0 2px 4px 0
+    }
+    .series ul.perapih.brd {
+        padding: 0;
+        margin-top: -30px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+        /* position: relative; */
+        max-width: calc(100% - 10px)
+    }
+    h4.dip a {
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #222
+    }
+    header#Judul {
+        background: #222;
+        position: relative;
+        /*border-bottom: 1px solid #ddd;*/
+        padding: 15px 15px;
+        /*margin-bottom: 0;*/
+        overflow: hidden
+    }
+    section#Informasi {
+        position: relative;
+        animation: animatebottom 1.3s;
+        margin-top: 10px
+    }
+    #Judul h1 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-top: 8px;
+        margin-bottom: 4px;
+        color: #4164b2;
+    }
+    article p {
+        text-align: justify;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    .series section {
+        width: calc(100% - 40px);
+        margin: 0 auto;
+        background: #222;
+        overflow: hidden;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        padding: 10px;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    .ims img {
+        /*border: 1px solid #d4d4d4;*/
+        padding: 2px;
+        margin: 5px 0;
+        /*border-radius: 5px*/
+    }
+    .ims {
+        text-align: center
+    }
+    h4.dip {
+        margin: 0 0 0 15px;
+        text-align: right
+    }
+    .j2 {
+        margin: 0;
+        border-left: 3px solid #ddd;
+        padding-left: 5px;
+        line-height: 15px
+    }
+    .new1 {
+        float: left;
+        margin-right: 15px;
+        border-radius: 3px;
+        background: #4164b2;
+        border-radius: 3px
+    }
+    .new1 a {
+        margin: 5px 10px;
+        float: left
+    }
+    .new1 a span:nth-child(1) {
+        font-size: 11px;
+        font-weight: 400
+    }
+    .new1 a span {
+        font-size: 14px;
+        font-weight: 700
+    }
+    table.inftable {
+        width: 100%;
+        margin-top: auto
+    }
+    table.inftable td:nth-child(1) {
+        background: #4164b2;
+        font-size: 13px
+    }
+    table.inftable td {
+        /*border: 1px solid #e4e6eb;*/
+        line-height: 20px;
+        text-align: left;
+        padding: 5px 7px;
+        border-radius: 5px
+    }
+    ul.genre {
+        float: left;
+        width: calc(100% - 6px);
+        padding: 0;
+        list-style: none;
+        margin-top: 0;
+        margin: 2px;
+        margin-bottom: 5px
+    }
+    ul.genre li {
+        float: left;
+        padding: 6px 11px;
+        border-radius: 1px;
+        margin-right: 5px;
+        background: #4164b2;
+        margin-top: 5px;
+        border-radius: 5px
+    }
+    ul.genre li a {
+        font-weight: 600;
+        font-family: segoe ui;
+        color: #fff;
+    }
+    .sec h2 {
+        margin: 5px 0;
+        font-size: 18px
+    }
+    table#Daftar_Chapter {
+        width: 100%
+    }
+    tbody._3Rsjq th {
+        background: #4164b2;
+        line-height: 35px;
+        border-radius: 5px
+    }
+    td.tanggalseries {
+        text-align: right;
+        font-size: 12px;
+        padding-right: 10px
+    }
+    table#Daftar_Chapter tr td {
+        border-bottom: 1px dotted #ddd;
+        line-height: 40px;
+        padding-left: 5px
+    }
+    table#Daftar_Chapter tr:last-child td {
+        border-bottom: 0
+    }
+    table#Daftar_Chapter tr td span:nth-child(1) {
+        display: none
+    }
+    .nxt {
+        padding: 10px 0;
+        color: #888;
+        background: #16151d;
+        text-align: left;
+        line-height: 30px;
+        padding-left: 14px;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        cursor: pointer
+    }
+    p.is {
+        font-size: 13px;
+        float: left;
+        width: 100%
+    }
+    .nm {
+        font-size: 12px;
+        font-weight: 700
+    }
+    .km {
+        border-bottom: 1px dotted #ddd;
+        float: left;
+        width: 100%;
+        margin-bottom: 13px
+    }
+    .km:last-child {
+        border-bottom: 0;
+        margin-bottom: 0
+    }
+    section#Chapter, section#Sinopsis, section#Spoiler {
+        position: relative;
+    }
+    .tpe1_inf {
+        font-size: 14px;
+        position: absolute;
+        right: 10px;
+        font-family: segoe ui;
+        bottom: 10px;
+        font-weight: 500;
+        text-shadow: -1px 0 #f4f4f4, 0 1px #4164b2, 1px 0 #222, 0 -1px #222;
+        color: #131313
+    }
+    .gmbr1 {
+        position: relative
+    }
+    .tpe1_inf b {
+        color: #fff;
+        text-shadow: -1px 0 #242424, 0 1px #262626, 1px 0 #282828, 0 -1px #242424
+    }
+    .grd .h4 {
+        margin: 0;
+        font-size: 15px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 5px 0;
+        max-height: 39px;
+        overflow: hidden;
+        color: #111;
+        font-weight: 500;
+        margin-left: 10px
+    }
+    .grd p {
+        font-size: 13px;
+        text-align: justify;
+        margin: 10px;
+        margin-top: 5px;
+        color: #575757;
+        border-top: 1px dotted #ddd;
+        padding: 10px 0;
+        padding-bottom: 0
+    }
+    .grd span {
+        font-size: 13px;
+        color: #5b5b5b;
+        font-family: segoe ui
+    }
+    .vw {
+        position: absolute;
+        bottom: 10px;
+        font-size: 11px;
+        background: #222;
+        left: 8px;
+        font-weight: 700;
+        line-height: 14px;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        border-radius: 3px;
+        padding: 2px 5px;
+        font-family: trebuchet ms, Helvetica, sans-serif
+    }
+    .series aside {
+        width: calc(100% - 20px);
+        margin: 0 auto;
+        margin-top: 30px
+    }
+    .grd {
+        --T68779821: 0 1px 2px #4164b2;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2;
+        background: #222;
+        margin-bottom: 10px;
+        border-radius: 6px;
+        position: relative;
+        overflow: hidden
+    }
+    .grd img {
+        width: 100%
+    }
+    .grd .vw {
+        top: 8px;
+        bottom: unset
+    }
+    .mnu {
+        background: #222;
+        --T68779821: 0 1px 2px #4164b2;
+        width: calc(100% - 20px);
+        -webkit-box-shadow: #4164b2;
+        margin: 0 auto;
+        box-shadow: 0 1px 2px #4164b2;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        overflow: hidden
+    }
+    button.tab {
+        margin: 0;
+        float: left;
+        line-height: 40px;
+        cursor: pointer;
+        width: 100%;
+        background: #222;
+        font-size: 15px;
+        font-weight: 700;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2;
+        border: 0;
+        color: #fff;
+    }
+    button.tab.curr {
+        background: #4164b2;
+        color: #fff;
+    }
+    tbody._3Rsjq th:nth-child(1) {
+        text-align: left;
+        padding-left: 10px
+    }
+    tbody._3Rsjq th:nth-child(2) {
+        text-align: right;
+        padding-right: 10px
+    }
+    div#iframe iframe {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none
+    }
+    div#iframe {
+        position: fixed;
+        bottom: 0;
+        height: 75%;
+        display: none;
+        z-index: 1000;
+        width: 100%;
+        background: #222;
+        animation: animatekomen 2s
+    }
+    #iframe span {
+        float: left;
+        width: 100%;
+        text-align: center;
+        background: #6f6f6f;
+        font-size: 17px;
+        color: #fff;
+        line-height: 40px;
+        background-image: linear-gradient(to bottom, #7d7d7d, #4c4c4c)
+    }
+    div#iframe2 {
+        float: left;
+        width: 100%
+    }
+    .ls1 img {
+        width: calc(50% - 10px);
+        float: left;
+        margin-bottom: 10px;
+        padding: 2px
+    }
+    .ls1 img:nth-child(even) {
+        margin-left: 10px
+    }
+    #Footer {
+        background: #222;
+        padding: 15px;
+        text-align: center;
+        padding-top: 20px;
+        z-index: 999;
+        position: relative;
+        box-shadow: -1px -1px 2px #ddd;
+        margin-top: 15px
+    }
+    #Footer svg {
+        height: 60px;
+        color: #4164b2
+    }
+    p.cp {
+        text-align: center
+    }
+    img.no-lazy {
+        animation: lazy 1s
+    }
+    section#Baca_Komik {
+        max-width: 100%;
+        overflow: hidden;
+        background: #252525;
+        color: #222
+    }
+    #Baca_Komik img {
+        display: grid;
+        margin: 0 auto;
+        width: 100%;
+        min-height: 100px
+    }
+    .chapter ul.perapih.brd {
+        max-width: 100%;
+        padding: 10px 0;
+        list-style: none;
+        overflow: hidden
+    }
+    .series header#header {
+        margin-bottom: 0
+    }
+    header#header {
+        margin-bottom: 1px
+    }
+    .chapter ul.brd li {
+        float: left
+    }
+    .chapter h4.dip a {
+        text-shadow: unset;
+        color: #5f5f5f;
+        font-weight: 500
+    }
+    .chapter #Judul h1 {
+        margin-top: 0;
+        border-bottom: 2px solid #16151d;
+        padding-bottom: 10px;
+        margin-bottom: 15px
+    }
+    .chapter table.tbl {
+        width: calc(100% + 4px);
+        margin: -2px;
+        float: left;
+    }
+    .chapter table.tbl td:nth-child(1) {
+        background: #f1f2f5;
+        font-size: 13px
+    }
+    .chapter table.tbl td {
+        border: 1px solid #e4e6eb;
+        line-height: 20px;
+        text-align: left;
+        padding: 5px 7px;
+        text-align: center;
+        border-radius: 3px
+    }
+    .tbl td {
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        font-family: segoe ui;
+        font-size: 13px
+    }
+    .new.new2 {
+        width: calc(100% - 30px);
+        overflow: hidden;
+        padding: 3px 15px
+    }
+    .new.new2 .new1.sd.rd {
+        background: #222;
+        width: calc(50% - 8px)
+    }
+    section#Baca_Komik h2, section#Baca_Komik p {
+        margin: 10px 15px
+    }
+    section#Baca_Komik h2 {
+        font-size: 16px
+    }
+    .chapter #Komentar {
+        width: calc(100% - 50px);
+        margin: 0 auto;
+        background: #222;
+        overflow: hidden;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        padding: 10px;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2;
+        margin-top: 15px
+    }
+    #Komentar h3 {
+        margin-top: 5px
+    }
+    .chapter aside {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        margin-top: 15px;
+        overflow: hidden
+    }
+    img.asm.sd {
+        width: 50%;
+        border-radius: 10px;
+        float: left;
+        margin-right: 10px
+    }
+    .chapter aside .grd {
+        float: left;
+        width: calc(50% - 7px)
+    }
+    .chapter aside .grd:nth-child(odd) {
+        margin-right: 7px
+    }
+    .chapter aside .grd:nth-child(even) {
+        margin-left: 7px
+    }
+    .chapter .grd .h4 {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    .sd {
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2;
+    }
+    aside h3 {
+        margin: 5px 0
+    }
+    .df p {
+        margin-top: 5px;
+        margin-bottom: 15px
+    }
+    .lanjut {
+        position: fixed;
+        bottom: 55px;
+        left: 0;
+        right: 0;
+        z-index: 999;
+        background: #ddd;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    .lanjut h2 {
+        text-align: left;
+        color: #000;
+        font-size: 15px;
+        margin-bottom: 0;
+        float: left;
+        width: calc(100% - 180px);
+        margin-left: 15px
+    }
+    .lanjut p {
+        margin: 10px 0;
+        text-align: justify;
+        width: calc(100% - 170px);
+        float: left;
+        margin-left: 15px
+    }
+    .lanjut a {
+        border-radius: 5px;
+        background: #4164b2;
+        line-height: 31px;
+        padding: 7px 12px;
+        border: 1px solid #ddd;
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px
+    }
+    .cen {
+        text-align: center;
+        float: right;
+        width: 130px;
+        position: absolute;
+        right: 0;
+        bottom: 28px
+    }
+    div#Chapter_Berikutnya {
+        width: calc(100% - 50px);
+        margin: 0 auto;
+        background: #222;
+        overflow: hidden;
+        margin-bottom: 15px;
+        border-radius: 5px;
+        padding: 10px;
+        box-shadow: 0 1px 2px #4164b2;
+        margin-top: 15px
+    }
+    a.nxl {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        font-family: segoe ui;
+        font-size: 14px;
+        line-height: 35px;
+        border-radius: 2px;
+        background: #4162b2
+    }
+    span.next {
+        font-size: 15px;
+        margin-bottom: 10px;
+        float: left;
+        width: 100%
+    }
+    .brkn img {
+        float: left;
+        margin-right: 10px
+    }
+    .brkn span {
+        font-size: 12px;
+        color: #666
+    }
+    span.wo {
+        font-size: 14px;
+        font-weight: 700
+    }
+    a.la {
+        float: right;
+        font-size: 13px;
+        margin-top: 8px;
+        margin-left: 5px
+    }
+    .grd p svg {
+        height: 13px;
+        float: left;
+        margin-right: 5px;
+        margin-top: 2px
+    }
+    .grd .vw svg {
+        height: 11px;
+        float: left;
+        margin-right: 4px;
+        margin-top: 1px
+    }
+    .grd .vw.hot svg {
+        color: red
+    }
+    .topmenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all .8s ease;
+        background: #4c4c4c;
+        z-index: 1;
+    }
+    .topmenu svg {
+        height: 16px;
+        float: left
+    }
+    .mor {
+        background: #4164b2;
+        float: left;
+        padding: 15px 20px;
+        color: #222
+    }
+    .topmenu span {
+        float: left;
+        margin-top: 5px;
+        margin-left: 47px;
+        margin-bottom: 5px;
+        font-size: 13px;
+        color: #fff;
+    }
+    .botmenu {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background: #4c4c4c;
+        padding: 3px 7px;
+        transition: all .8s ease;
+        border-top: 1px solid #ddd;
+        z-index: 2;
+    }
+    .nxpr svg {
+        height: 40px;
+        color: #222
+    }
+    .nxpr span {
+        float: left;
+        font-size: 20px;
+        margin: 0 5px;
+        margin-top: 11px;
+        font-weight: 700;
+        color: #fff;
+    }
+    div#Review {
+        float: right;
+        background: #383838;
+        padding: 10px 15px;
+        border-radius: 4px;
+        color: #dadada
+    }
+    .top svg {
+        height: 24px;
+        color: #fff;
+    }
+    .top {
+        float: right;
+        margin-right: 13px;
+        margin-top: 8px;
+    }
+    .chapter .grd p {
+        text-align: left;
+        border-top: 0;
+        padding-top: 0;
+        margin-top: 0;
+        line-height: 15px;
+        font-size: 12px;
+        color: #5b5b5b;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden
+    }
+    .svg.hot {
+        color: red;
+        margin-left: 0
+    }
+    div#lapor {
+        position: fixed;
+        top: 70px;
+        bottom: 70px;
+        left: 50px;
+        right: 50px;
+        display: none;
+        background: #333;
+        border-radius: 10px;
+        overflow: hidden
+    }
+    div#lapor span {
+        float: right;
+        color: #fff;
+        margin: 10px
+    }
+    div#lapor2 {
+        float: left;
+        width: 100%;
+        height: 100%
+    }
+    div#lapor2 iframe {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none
+    }
+    .click .botmenu {
+        bottom: -47px;
+    }
+    .click .topmenu {
+        top: -60px
+    }
+    .filer2 select#filter {
+        float: left;
+        height: 33px;
+        padding-left: 7px;
+        background: #222;
+        border: 1px solid #bfbfbf;
+        margin-right: 5px
+    }
+    input.filter3 {
+        padding: 9px;
+        color: #fff;
+        font-weight: 700;
+        background: #4c4c4c;
+        border: none;
+        height: 40px;
+        border-radius: 3px;
+        font-size: 14px;
+        margin-left: 5px;
+        width: calc(33.333% - 10px)
+    }
+    .loop-nav.pag-nav, .ntah {
+        width: calc(100% - 60px);
+        margin: 15px auto;
+        background: #222;
+        padding: 15px;
+        -webkit-box-shadow: #4164b2;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    .index h1 {
+        margin: 0
+    }
+    .daftar {
+        background: #222;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    .ntah p {
+        margin: 10px 0
+    }
+    .vw2.svg.berwarna svg {
+        height: 20px;
+        color: #df6300;
+        background: #222;
+        border: 1px solid #16151d;
+        padding: 2px;
+        border-radius: 11px
+    }
+    .bge {
+        border-bottom: 2px solid #16151d;
+        position: relative;
+        overflow: hidden;
+        padding-bottom: 15px
+    }
+    .bgei img {
+        width: 100%
+    }
+    .bgei {
+        position: relative
+    }
+    .bgei .vw {
+        bottom: unset;
+        top: 15px;
+        left: 15px
+    }
+    .vw2.svg {
+        position: absolute;
+        right: 10px;
+        top: 10px
+    }
+    .kan h3 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        color: #101010;
+        margin-top: 0;
+        margin-bottom: 4px;
+        font-size: 18px
+    }
+    .kan {
+        margin: 15px
+    }
+    span.judul2 {
+        margin: 0;
+        line-height: 15px;
+        font-size: 13px
+    }
+    .bgei span.svg.rekomendasi svg {
+        height: 13px;
+        margin-right: 2px;
+        float: left;
+        color: #4164b2
+    }
+    .bgei .svg.hot {
+        float: unset
+    }
+    .bgei .svg.hot svg {
+        height: 12px;
+        float: left;
+        margin-right: 4px
+    }
+    a.next {
+        float: right
+    }
+    span.prev {
+        display: none
+    }
+    .loop-nav.pag-nav {
+        overflow: hidden
+    }
+    a.next, a.prev {
+        text-align: center;
+        color: #4164b2;
+        width: calc(50% - 7px);
+        line-height: 30px;
+        font-weight: 700;
+        padding: 5px 0;
+        background: #16151d;
+        border-radius: 5px
+    }
+    .bge:last-child {
+        border-bottom: 0
+    }
+    a.prev {
+        float: left
+    }
+    .ntah.genr {
+        overflow: hidden;
+        max-height: 162px;
+        position: relative
+    }
+    .mree {
+        position: absolute;
+        bottom: 0;
+        left: 13px;
+        right: 13px;
+        text-align: center;
+        background: #222;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 15px;
+        border-top: 1px solid #4164b2;
+        color: #4164b2;
+        cursor: pointer
+    }
+    .vw, .vw2 {
+        z-index: 1
+    }
+    #halaman {
+        position: fixed;
+        top: 55px;
+        right: 10px;
+        text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+        font-weight: 700;
+        font-size: 14px;
+        background: #16151d80;
+        padding: 0 5px;
+        border: 1px solid #9b9b9b;
+        border-radius: 3px;
+        transition: all .8s ease
+    }
+    img.no-lazy2 {
+        animation: lazy .2s
+    }
+    .setting {
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        transition: all .8s ease;
+        left: 0;
+        z-index: 2;
+        right: 0
+    }
+    select#Lazy, select#Quality {
+        height: 25px;
+        font-size: 18px;
+        margin: 7px;
+        border: 0;
+        color: #fff;
+        float: right;
+        background: #4164b3;
+        padding: 0 5px;
+        text-transform: lowercase;
+        font-weight: 700
+    }
+    .s1 p {
+        text-align: center;
+        float: left;
+        margin: 10px 0!important;
+        font-size: 15px
+    }
+    .s1 {
+        overflow: hidden
+    }
+    .setting ul {
+        padding: 0;
+        text-align: left;
+        font-size: 12px;
+        margin: 10px 15px;
+        list-style: none
+    }
+    .setting ol {
+        padding-left: 14px
+    }
+    .setting ul li {
+        margin-bottom: 9px
+    }
+    .setting ul ol li {
+        margin-bottom: 0
+    }
+    .click #halaman {
+        top: 15px
+    }
+    .series h4.dip {
+        margin-right: 15px
+    }
+    section#Trending {
+        overflow: hidden;
+        background: #222;
+        margin-bottom: 25px;
+        box-shadow: 0 2px 4px 0 #222
+    }
+    .ls11 {
+        background: #222;
+        float: left;
+        width: 100%
+    }
+    .ls1v {
+        position: relative
+    }
+    span.tr1 {
+        position: absolute;
+        top: 0;
+        background: #4164b2c7;
+        color: #fff;
+        font-weight: 700;
+        left: 0;
+        font-size: 11px;
+        padding: 3px 6px;
+        border-bottom-right-radius: 10px;
+        padding-right: 10px
+    }
+    .ls11 .svg.eye svg {
+        height: 14px;
+        float: left;
+        margin-right: 5px
+    }
+    .ls1j h3 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        color: #383838;
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    .ls4j span, span.ls2t {
+        margin: 0;
+        line-height: 15px;
+        font-size: 12px;
+        text-overflow: ellipsis;
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        float: left;
+        margin-top: 3px;
+        color: #848282
+    }
+    .ls1j {
+        margin: 10px 15px;
+        padding-bottom: 7px;
+        margin-top: 5px
+    }
+    .ls1j p {
+        font-size: 13px;
+        margin-top: 7px
+    }
+    a.ls2a {
+        font-weight: 600;
+        padding: 7px 10px;
+        line-height: 28px;
+        font-family: segoe ui;
+        font-size: 15px;
+        border-radius: 3px;
+        color: #fff;
+        background: #4164b2
+    }
+    #Trending .perapih {
+        background: #222;
+        /* position: relative; */
+    }
+    .ls2 {
+        width: 160px;
+        float: left;
+        margin: 10px 8px;
+        overflow: hidden;
+        background: #222
+    }
+    .ls2 img {
+        /* width: 100%; */
+        box-shadow: #e0e0e0 0 0 2px 0;
+        border: 1px solid #eaedf1;
+        border-radius: 2px;
+        width: 159px;
+        height: auto;
+        min-width: 100%;
+        top: 0;
+        position: absolute;
+    }
+    .ls2v {
+        position: relative;
+        overflow: hidden;
+        padding: 137% 0 0;
+    }
+    span.tr2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #4c4c4c;
+        color: #fff;
+        font-weight: 700;
+        padding: 2px 10px;
+        border-bottom-right-radius: 11px;
+        box-shadow: rgba(86, 86, 86, .38) 0 1px 2px 0
+    }
+    .ls2j h4 a {
+        font-size: 15px;
+        font-family: segoe ui;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        float: left;
+        width: 100%;
+        line-height: 22px
+    }
+    .ls2j h4 {
+        margin: 0
+    }
+    a.ls2l {
+        float: left;
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+        padding: 8px 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        background: #4164b2;
+        border-radius: 2px
+    }
+    .ls2 span.svg.eye svg {
+        float: left;
+        height: 10px;
+        margin-right: 4px;
+        margin-top: 2px
+    }
+    .ls12 {
+        width: 1588px;
+        overflow: auto
+    }
+    .ls1v img {
+        width: 100%;
+        border-bottom: 1px solid #ddd
+    }
+    .ls2 .vw {
+        left: 8px;
+        top: 8px;
+        font-size: 11px;
+        bottom: unset;
+        font-weight: 700
+    }
+    .home header#header {
+        margin-bottom: 0
+    }
+    .home header#Title {
+        background: #222;
+        margin-bottom: 20px;
+        padding: 15px;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2;
+        margin: 13px;
+        border-left: 3px solid #4164b2
+    }
+    .home header#Title h1 {
+        font-family: segoe ui;
+        border-bottom: 2px solid #4164b2;
+        padding-bottom: 15px;
+        margin-top: 5px
+    }
+    .home header#Title p {
+        text-align: justify
+    }
+    .Manga:before, .Manhua:before, .Manhwa:before {
+        content: "";
+        width: 22px;
+        margin-right: 5px;
+        height: 15px;
+        float: left;
+        border-radius: 2px;
+        margin-top: -1px;
+        box-shadow: rgba(86, 86, 86, .38) -2px 2px 2px 0
+    }
+    .Manhwa:before {
+        background: url(https://komiku.co.id/wp-content/uploads/2020/02/Komik-Korea.jpg);
+        height: 16px;
+        background-position: 0 -1px
+    }
+    .Manga:before {
+        background: url(https://komiku.co.id/wp-content/uploads/2020/02/Komik-Jepang.jpg);
+        height: 16px;
+        background-position: 0 -1px
+    }
+    .Manhua:before {
+        background: url(https://komiku.co.id/wp-content/uploads/2020/02/Komik-China.jpg);
+        height: 16px;
+        background-position: 0 -1px
+    }
+    .ls2 .Manga, .ls2 .Manhua, .ls2 .Manhwa {
+        top: 5px;
+        right: 0;
+        position: absolute
+    }
+    .ls11 span.Manga {
+        top: 10px;
+        right: 10px;
+        position: absolute
+    }
+    .deskripsi span.svg {
+        float: unset
+    }
+    .deskripsi .svg svg {
+        height: 16px;
+        float: left;
+        margin-right: 5px
+    }
+    ul.deskripsi {
+        padding-left: 0;
+        margin-bottom: 0
+    }
+    .deskripsi li {
+        margin-bottom: 5px;
+        list-style: none
+    }
+    section.ls {
+        overflow: hidden;
+        background: #222;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        box-shadow: 1px 1px 4px 0 #222;
+    }
+    .ls h2 {
+        overflow: hidden;
+        margin-bottom: 20px
+    }
+    .ls .ls12 {
+        border-top: 0;
+        margin-left: -8px
+    }
+    h3.lsh3 {
+        margin: 5px 15px;
+        float: left;
+        margin-top: 15px;
+        font-size: 20px;
+        margin-bottom: 4px;
+        text-transform: lowercase;
+        width: calc(100% - 25px);
+        font-weight: 500;
+        color: #fff;
+        font-family: trebuchet ms, Helvetica, sans-serif
+    }
+    .ls .perapih {
+        /* position: relative; */
+        overflow: hidden
+    }
+    .ls2 .svg {
+        float: unset
+    }
+    .ls2 .svg svg {
+        height: 10px;
+        float: left;
+        margin-right: 3px;
+        margin-top: 2px
+    }
+    .home header#Title h1 {
+        font-size: 21px
+    }
+    .cv h3 {
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #fff;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: arial;
+        float: left;
+        width: 100%;
+        margin-bottom: 5px
+    }
+    span.ls12t {
+        float: left;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #fff;
+        margin-bottom: 17px;
+        font-family: segoe ui
+    }
+    .ls12j {
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+        right: 15px
+    }
+    span.tr12 svg {
+        height: 23px;
+        float: left;
+        margin-right: 2px;
+        margin-top: -2px
+    }
+    span.tr12 {
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        font-size: 45px;
+        color: #fff;
+        font-weight: 700;
+        position: absolute;
+        left: 10px;
+        top: 22px
+    }
+    .ls123 {
+        padding: 15px;
+        padding-top: 20px;
+        overflow: hidden
+    }
+    .ls23 {
+        position: relative;
+        float: left;
+        width: calc(100% - 23px);
+        margin-bottom: 20px;
+        padding-left: 23px
+    }
+    .ls23v img {
+        float: left;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        border-radius: 10px;
+        width: 90px;
+        border: 1px solid #eaedf1
+    }
+    .tr23 svg {
+        color: red;
+        height: 12px;
+        margin-top: 4px;
+        float: left;
+        margin-right: 3px
+    }
+    span.tr23 {
+        font-family: segoe ui;
+        font-weight: 500;
+        border-radius: 5px;
+        font-size: 20px;
+        color: #8c8a8a;
+        position: absolute;
+        top: 5px;
+        left: 0;
+        background: #222
+    }
+    .ls23 h4 {
+        margin-top: 5px;
+        font-family: segoe ui;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 10px
+    }
+    span.ls23t {
+        font-size: 13px;
+        color: #848282;
+        font-family: segoe ui
+    }
+    .ls23v a {
+        float: left;
+        margin-right: 10px;
+        overflow: hidden
+    }
+    .ls23v .Manga, .ls23v .Manhua, .ls23v .Manhwa {
+        position: absolute;
+        left: 8px;
+        top: 8px
+    }
+    a.ls123m {
+        width: 900px;
+        text-align: left;
+        float: left;
+        line-height: 26px;
+        padding: 10px 0;
+        background: #fafafa;
+        font-weight: 600;
+        padding-left: 10px;
+        font-family: segoe ui;
+        margin-bottom: 1px;
+        border-bottom: 2px solid #e8e8e8;
+    }
+    /* a.ls123m {
+        width: calc(100% - 15px);
+        text-align: right;
+        float: left;
+        line-height: 26px;
+        padding: 10px 0;
+        background: #fafafa;
+        font-weight: 600;
+        border-bottom: 1px solid #e6e7e9;
+        font-family: segoe ui;
+        margin-bottom: 1px;
+        padding-right: 15px
+    } */
+    .ls23:last-child {
+        margin-bottom: 0
+    }
+    section h2.h2hot {
+        text-align: center;
+        margin: 15px;
+        margin-top: 0;
+        font-weight: 700;
+        font-size: 23px;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        margin-bottom: 10px;
+        line-height: 30px
+    }
+    h2.h2hot svg {
+        height: 18px;
+        color: #4769b4
+    }
+    .ls123m span.svg.more svg {
+        height: 15px;
+        overflow: hidden;
+        float: right;
+        margin-top: 6px;
+        margin-left: 5px;
+        margin-right: 10px
+    }
+    span.svg.rekomendasi {
+        color: #4164b2
+    }
+    .moree .more svg {
+        height: 15px;
+        color: #888
+    }
+    a.moree {
+        position: absolute;
+        right: 10px;
+        top: 20px;
+        font-weight: 700;
+        color: #777
+    }
+    .ls3 {
+        width: calc(33.333% - 26px);
+        float: left;
+        margin: 3px;
+        padding: 10px;
+        box-shadow: 0 2px 4px 0 #222;
+        background: #222;
+        padding-bottom: 13px;
+        border-radius: 5px
+    }
+    .ls3 img {
+        width: 100%
+    }
+    section#Genre {
+        overflow: hidden;
+        margin: 15px 7px;
+        margin-bottom: 20px
+    }
+    .ls3p a {
+        background: #f4f4f4;
+        text-align: center;
+        padding: 5px 16px;
+        font-weight: 600;
+        font-family: segoe ui;
+        overflow: hidden;
+        border-radius: 3px;
+        color: #444;
+        border: 1px solid #eaedf1
+    }
+    .ls3p h4 {
+        color: #676767;
+        margin: 5px 0;
+        font-weight: 400;
+        text-align: center;
+        margin-bottom: 18px
+    }
+    .ls3p {
+        text-align: center
+    }
+    span.warna {
+        color: #fff;
+        text-shadow: -1px 0 #242424, 0 1px #262626, 1px 0 #282828, 0 -1px #242424;
+        position: absolute;
+        top: 7px;
+        right: 8px;
+        font-weight: 700;
+        font-size: 13px
+    }
+    .brt h4 {
+        margin: 0
+    }
+    .brt {
+        margin: 5px 0;
+        padding: 10px;
+        background: #f4f4f4;
+        border-radius: 5px;
+        border: 1px solid #eaedf1
+    }
+    section#Berita {
+        overflow: hidden;
+        margin: 25px 10px;
+        padding: 15px;
+        box-shadow: 0 2px 4px 0 #222;
+        background: #222;
+        border-radius: 5px;
+        margin-bottom: 25px
+    }
+    .brt span {
+        font-size: 12px;
+        border-left: 3px solid #ddd;
+        padding-left: 5px;
+        color: #848282
+    }
+    .brt a {
+        margin-top: 0;
+        font-size: 15px;
+        font-family: segoe ui;
+        font-weight: 400;
+        line-height: 17px;
+        margin-bottom: 7px;
+        float: left;
+        width: 100%
+    }
+    section#Terbaru {
+        margin: 10px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        position: relative;
+        margin-top: 25px
+    }
+    .ls4 {
+        float: left;
+        width: 100%;
+        background: #222;
+        margin-bottom: 15px;
+        overflow: hidden;
+        display: flex;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px 0 #222
+    }
+    .ls4w {
+        overflow: hidden;
+        padding: 1px
+    }
+    .ls4v {
+        float: left;
+        margin-right: 0;
+        position: relative;
+        max-width: 40%;
+        overflow: hidden;
+        margin: 10px;
+        border-radius: 5px
+    }
+    .ls4j h4 a {
+        font-size: 15px;
+        font-family: segoe ui;
+        font-weight: 400;
+        margin-bottom: 6px
+    }
+    .ls4j h4 {
+        margin: 15px 0;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: calc(100% - 10px);
+        float: left;
+        margin-bottom: 1px
+    }
+    .ls4 svg {
+        height: 9px
+    }
+    .ls4v a {
+        float: left;
+        width: 100%;
+        height: 107px
+    }
+    .ls4 .vw {
+        top: 5px;
+        left: 5px;
+        bottom: unset;
+        box-shadow: none;
+        border-radius: 5px
+    }
+    a.ls24 {
+        background: #4164b2;
+        text-align: center;
+        color: #fff;
+        padding: 7px 15px;
+        margin-top: 18px;
+        float: left;
+        font-size: 14px;
+        border-radius: 3px;
+        font-weight: 400;
+        font-family: trebuchet ms, Helvetica, sans-serif
+    }
+    #Terbaru h2 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-top: 0;
+        margin-bottom: 10px;
+        color: #000;
+        font-weight: 500;
+        font-size: 20px
+    }
+    .ls112::-webkit-scrollbar, .mirip1 div::-webkit-scrollbar {
+        height: 7px!important;
+        background-color: #f4f4f4
+    }
+    .ls112::-webkit-scrollbar-thumb, .mirip1 div::-webkit-scrollbar-thumb {
+        background-color: #dadada;
+        border-radius: 3px
+    }
+    .ls112 {
+        overflow: auto;
+        width: calc(100% - 15px);
+        margin: 15px;
+        margin-right: 0;
+        margin-bottom: 25px
+    }
+    #Berita h2 {
+        margin: 0;
+        font-weight: 500;
+        color: #000;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-bottom: 15px
+    }
+    a.lnn {
+        width: calc(100% - 4px);
+        float: left;
+        text-align: center;
+        font-weight: 700;
+        color: #4164b2;
+        background: #222;
+        line-height: 35px;
+        font-family: segoe ui;
+        font-size: 18px;
+        margin: 2px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    .mirip1 {
+        margin: 0 15px;
+        margin-bottom: 35px;
+        position: relative
+    }
+    section.mirip {
+        overflow: hidden;
+        background: #222;
+        margin-top: 20px;
+        box-shadow: 1px 1px 4px 0 #222
+    }
+    .mirip h3 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-bottom: 12px;
+        font-weight: 500;
+        font-size: 18px;
+        margin-top: 25px;
+        max-width: 75%;
+        border-bottom: 1px solid #ddd
+    }
+    .ls5 {
+        background: #222;
+        float: left;
+        margin-right: 15px;
+        position: relative;
+        width: 120px;
+        margin-bottom: 10px;
+        overflow: hidden
+    }
+    .ls5s {
+        width: 100%;
+        overflow: auto;
+        padding-bottom: 5px
+    }
+    .ls5w {
+        width: 1235px
+    }
+    .ls5 h4 {
+        padding: 0;
+        margin: 0;
+        font-weight: 400;
+        float: left;
+        width: 120px;
+        margin-bottom: 3px;
+        margin-top: 5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 15px;
+        text-align: left
+    }
+    .ls5v img {
+        width: 120px;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        border-radius: 5px;
+        height: auto
+    }
+    .ls5b {
+        margin-bottom: 10px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        border-radius: 5px
+    }
+    .ls5b img {
+        float: left;
+        margin-right: 10px;
+        width: 100%;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        border-radius: 5px
+    }
+    .ls5b h4 {
+        float: left;
+        margin: 0;
+        font-family: segoe ui;
+        font-weight: 500;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 16px;
+        color: #000
+    }
+    a.ls5a {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        top: 10px;
+        color: #fff;
+        padding: 0 15px;
+        font-weight: 600;
+        font-size: 15px;
+        padding-top: 9px;
+        background: #4769b4;
+        border-radius: 2px
+    }
+    .ls5b2 span {
+        font-size: 13px;
+        color: #848282
+    }
+    .ls5b2 {
+        position: relative;
+        float: left;
+        width: calc(100%);
+        padding: 10px 0;
+        padding-bottom: 6px
+    }
+    .ls5 .Manga, .ls5 .Manhua, .ls5 .Manhwa {
+        top: 10px;
+        left: 10px;
+        position: absolute
+    }
+    .ls4 span.warna {
+        right: unset;
+        left: 7px;
+        bottom: 3px;
+        top: unset
+    }
+    .ls6 {
+        position: relative;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 0;
+        padding-bottom: 10px
+    }
+    .ls6w {
+        width: 2400px
+    }
+    .ls6s {
+        overflow: auto
+    }
+    .ls6img {
+        position: relative
+    }
+    .ls6 .vw svg {
+        height: 10px
+    }
+    .ls6 .vw {
+        top: 8px;
+        bottom: unset
+    }
+    .ls6 .Manga, .ls6 .Manhua, .ls6 .Manhwa {
+        bottom: 15px;
+        position: absolute;
+        right: 4px
+    }
+    .ls6img img {
+        border-radius: 2px;
+        width: 260px;
+        height: 131px
+    }
+    a.ls6a {
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        padding: 7px 10px;
+        font-size: 15px;
+        background: #eaedf1;
+        border-radius: 2px
+    }
+    .ls6p h4 {
+        margin: 0;
+        font-family: segoe ui;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #fff;
+        font-size: 15px;
+        overflow: hidden;
+        max-width: 138px
+    }
+    .ls6p {
+        margin-top: 5px
+    }
+    .ls6p span {
+        font-size: 12px;
+        color: #848282
+    }
+    .ls4 .Manga, .ls4 .Manhua, .ls4 .Manhwa {
+        position: absolute;
+        bottom: 10px;
+        right: 6px
+    }
+    .mirip1 p {
+        margin-bottom: 15px;
+        margin-top: -8px;
+        color: #676767
+    }
+    .ls4 img {
+        width: 150px;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: #e0e0e0 0 0 2px 0
+    }
+    .mirip1:last-child {
+        margin-bottom: 0;
+        border-bottom: 0
+    }
+    section.mirip h2.h2hot {
+        margin-top: 0
+    }
+    select#genre1, select#genre2 {
+        width: 40%;
+        padding: 10px
+    }
+    input.search {
+        width: calc(20% - 10px);
+        padding: 10px
+    }
+    section#Peringkat {
+        padding: 15px;
+        margin: 15px;
+        background: #222;
+        box-shadow: 1px 1px 4px 0 #222;
+        border-radius: 5px
+    }
+    .ls7nm {
+        padding: 4px 10px;
+        border-radius: 21px;
+        font-weight: 700;
+        box-shadow: 0 2px 4px 0 #222;
+        position: absolute;
+        left: 0;
+        top: 3px;
+        overflow: hidden;
+        color: #4264b2
+    }
+    .ls7 h4 {
+        margin: 0;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 3px
+    }
+    .ls7 {
+        position: relative;
+        overflow: hidden
+    }
+    .ls7v {
+        padding-left: 45px;
+        margin-bottom: 20px
+    }
+    .ls7:nth-child(n+3) .ls7nm {
+        color: #fff;
+        background: #4264b2
+    }
+    .ls7:nth-child(n+5) .ls7nm {
+        color: #000;
+        background: #f4f4f4
+    }
+    .ls7:nth-child(2) .ls7nm {
+        background: #df0204;
+        color: #222
+    }
+    .ls7v span {
+        font-size: 12px;
+        color: #676767
+    }
+    #Peringkat h2 {
+        font-weight: 500;
+        color: #000;
+        margin-top: 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+        font-family: trebuchet ms, Helvetica, sans-serif
+    }
+    .mirip1 h2 {
+        margin: 0 0 13px 0;
+        color: #000;
+        font-weight: 500;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-top: 25px
+    }
+    span.ls5a {
+        font-size: 12px;
+        color: #848282;
+        font-weight: 400
+    }
+    .title {
+        visibility: hidden;
+        opacity: 0
+    }
+    #Navbawah {
+        position: fixed;
+        background: #222;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        box-shadow: -6px -1px 4px 0 #e6e6e6;
+        z-index: 10
+    }
+    #Navbawah svg {
+        height: 18px;
+        color: #4164b2
+    }
+    .navb {
+        width: 25%;
+        float: left;
+        text-align: center;
+        padding-top: 8px;
+        padding-bottom: 3px
+    }
+    .navb span {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #888;
+        font-size: 13px
+    }
+    .loading {
+        position: absolute;
+        top: -10px;
+        height: 10px;
+        right: 0;
+        left: 0;
+        background: #383838
+    }
+    #loading {
+        height: 100%;
+        float: left;
+        background: #000;
+        transition: width 2s
+    }
+    .new.new2 .new1.sd.rd:nth-child(2) {
+        margin-right: 0
+    }
+    section#Berita .ls112 {
+        margin: 2px;
+        margin-top: 30px;
+        width: 100%
+    }
+    #history .ls2:first-child {
+        margin-left: 0
+    }
+    .persen {
+        position: absolute;
+        top: -5px;
+        height: 5px;
+        background: 0 0;
+        left: 0;
+        right: 0
+    }
+    .persen div {
+        background: #4164b2;
+        float: left;
+        height: 100%
+    }
+    #history a.ls2l {
+        border-radius: 0
+    }
+    #Navbawah iframe {
+        border: none;
+        height: 40px
+    }
+    #tambahan {
+        position: fixed;
+        bottom: 75px;
+        left: 15px;
+        transition: all .8s ease
+    }
+    #tambahan a {
+        float: left;
+        margin-right: 8px;
+        background: #222;
+        padding: 5px 9px;
+        box-shadow: 0 1px 2px #4164b2;
+        border-radius: 1px;
+        font-size: 12px;
+        color: #6b6b6b;
+        text-transform: uppercase;
+        padding-bottom: 3px
+    }
+    #tambahan svg {
+        height: 13px;
+        color: #4164b1;
+        float: left;
+        margin-right: 5px;
+        margin-top: 3px
+    }
+    .click #tambahan {
+        left: -300px
+    }
+    .history section#Berita .ls112 {
+        margin-top: 0
+    }
+    .history .ls12 {
+        width: 100%
+    }
+    .history .ls2 {
+        width: calc(50% - 16px)
+    }
+    .ls2 a {
+        float: left;
+        width: 100%;
+        width: 159px
+    }
+    #source {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 12px;
+        text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222
+    }
+    #history2.add {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #222;
+        z-index: 999;
+        border-top: 1px solid #f4f4f4;
+        padding: 10px;
+        padding-bottom: 5px
+    }
+    section#Berita .add .ls112 {
+        margin-top: 0
+    }
+    .add button {
+        position: absolute;
+        right: 5px;
+        border-radius: 5px;
+        top: 7px;
+        padding: 0 12px;
+        height: 25px;
+        font-weight: 700;
+        color: #3c3c3c;
+        background: #222;
+        border: 1px solid #616161
+    }
+    form.filer2 select {
+        width: calc(33.333% - 10px);
+        border: 0;
+        float: left;
+        margin: 0 5px;
+        background: #16151d;
+        padding-left: 5px;
+        font-size: 13px;
+        height: 40px;
+        border-radius: 3px;
+        margin-bottom: 10px
+    }
+    div#history .ls4 {
+        width: calc(100% - 5px)
+    }
+    #Berita .prt h2 {
+        font-size: 25px;
+        font-weight: 800;
+        color: #4164b2;
+        margin-top: 20px;
+        float: left
+    }
+    div#Melayangny {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: #222;
+        padding: 8px 0;
+        border-top: 1px solid #e9e9e9
+    }
+    #Melayangny a {
+        padding: 5px 8px;
+        background: #16151d;
+        margin: 0 4px;
+        font-weight: 700
+    }
+    .melayg2 {
+        overflow: auto;
+        width: 100%;
+        padding: 5px 0
+    }
+    .ls23v {
+        position: relative
+    }
+    ul.second_nav li:last-child {
+        border-right: 0
+    }
+    #Terbaru h2 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: #000;
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 16px
+    }
+    #Terbaru h2 span {
+        background: #4c4c4c;
+        padding: 7px 10px;
+        color: #fff;
+        border-radius: 5px
+    }
+    .ls8 {
+        width: 100%;
+        overflow: hidden;
+        margin-right: 20px
+    }
+    .ls8w {
+        display: flex;
+        padding: 5px;
+        width: 700px
+    }
+    .ls8v {
+        position: relative
+    }
+    .ls8 .ls8v img {
+        width: calc(100% - 6px);
+        border-radius: 100%;
+        border: 2px solid #dcdcdd
+    }
+    .ls84 {
+        position: absolute;
+        bottom: 6px;
+        left: 25px;
+        right: 25px;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+        background: #4164b3;
+        line-height: 23px;
+        font-size: 12px;
+        font-weight: 800;
+        text-transform: uppercase
+    }
+    .ls8j a {
+        font-size: 14px;
+        font-family: segoe ui;
+        font-weight: 500;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        width: 100%;
+        line-height: 22px;
+        color: #444;
+        margin-top: 3px
+    }
+    .ls8j h4 {
+        margin: 0
+    }
+    #Filter {
+        overflow: hidden;
+        margin: 25px 10px;
+        padding: 15px;
+        box-shadow: 0 2px 4px 0 #222;
+        background: #222;
+        border-radius: 5px;
+        margin-bottom: 25px
+    }
+    #Filter h2 {
+        margin: 0;
+        font-weight: 500;
+        color: #000;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-bottom: 15px;
+        text-align: center
+    }
+    #Filter p {
+        font-size: 12px;
+        margin: 15px 0 0 5px
+    }
+    section#Menu_Tambahan {
+        width: calc(100% - 14px);
+        margin: 7px;
+        overflow: hidden
+    }
+    #Menu_Tambahan a {
+        margin: 5px;
+        background: #222;
+        padding: 8px 10px;
+        float: left;
+        width: calc(50% - 30px);
+        color: #585858;
+        font-weight: 400;
+        text-align: center;
+        font-size: 12px;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        border-radius: 5px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden
+    }
+    #history2 button {
+        display: none
+    }
+    span.up {
+        bottom: 2px;
+        right: 8px;
+        color: #525252;
+        position: absolute;
+        font-weight: 800;
+        font-size: 9px;
+        text-transform: uppercase;
+        background: #222;
+        box-shadow: 0 1px 2px #4164b3;
+        padding: 2px 5px;
+        padding-bottom: 0;
+        border-radius: 50%
+    }
+    .ls4 span.up {
+        top: 3px;
+        position: absolute;
+        right: 5px;
+        bottom: unset;
+        font-family: segoe ui;
+        font-weight: 800;
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: -1px 0 #242424, 0 1px #262626, 1px 0 #282828, 0 -1px #242424;
+        background: 0 0;
+        box-shadow: none
+    }
+    #history2.add button {
+        display: block
+    }
+    .h2hot span {
+        background: #4164b2;
+        padding: 5px 7px;
+        color: #fff;
+        border-radius: 3px
+    }
+    .ls4j {
+        float: left;
+        width: calc(100% - 170px)
+    }
+    #sosmed {
+        margin: -15px;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-bottom: 1px solid #e2e3e5;
+        background: #222;
+        overflow: hidden
+    }
+    #sosmed p {
+        margin-top: 0;
+        font-size: 14px;
+        text-align: left
+    }
+    .sosmed {
+        float: left;
+        margin-right: 10px;
+        padding-right: 10px;
+        border-right: 1px solid #ddd
+    }
+    .sosmed a {
+        font-weight: 700;
+        color: #4164b4
+    }
+    .tombol {
+        float: left;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: 1px solid #4164b3;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        margin-left: 2px;
+        color: #4164b3;
+        cursor: pointer;
+        position: relative
+    }
+    .nono {
+        border: 2px solid #a9a9a9;
+        color: #555
+    }
+    #baru3 {
+        background: #16151d;
+        position: absolute;
+        bottom: -40px;
+        z-index: 1;
+        height: 20px;
+        width: 200px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    #baru3 input {
+        border: 0;
+        border-bottom: 1px solid #000;
+        width: 135px;
+        float: left
+    }
+    #tambahkan {
+        float: right;
+        background: #4164b3;
+        color: #fff;
+        padding: 0 5px;
+        font-size: 12px;
+        border-radius: 3px;
+        font-weight: 700
+    }
+    .sosmed:last-child {
+        border-right: 0
+    }
+    p.tutor {
+        float: left;
+        width: 100%;
+        margin-top: 3px;
+        margin-left: 3px;
+        margin-bottom: 20px
+    }
+    .chapter header#Judul {
+        border-radius: 10px 10px 0 0;
+        width: calc(100% - 60px);
+        margin: 0 auto;
+        padding-bottom: 0;
+        border-bottom: 0;
+        box-shadow: 0 0 4px 0 #222
+    }
+    .share {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px
+    }
+    .share ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex
+    }
+    .share li {
+        width: 100%;
+        text-align: center;
+        border-right: 1px solid #e4e6eb;
+        margin: 10px;
+        line-height: 23px;
+        font-family: segoe ui;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 15px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .share li:last-child {
+        border-right: 0
+    }
+    .cara {
+        margin-right: 15px;
+        float: left
+    }
+    .click .setting {
+        top: -60px
+    }
+    body .click#setting {
+        top: 0
+    }
+    a.buttnext {
+        float: left;
+        margin-bottom: 15px;
+        padding: 10px 15px;
+        background: #4164b3;
+        font-weight: 700;
+        border-radius: 5px;
+        color: #fff;
+        font-family: segoe ui;
+        font-size: 18px
+    }
+    .rakbuku.his {
+        width: calc(100% - 14px);
+        float: left;
+        background: #16151d;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2);
+        border-radius: 5px
+    }
+    .rakbuku {
+        width: calc(50% - 14px);
+        float: left;
+        margin-right: 7px;
+        background: #16151d;
+        margin-bottom: 15px;
+        margin-left: 7px;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden
+    }
+    .rakbuku h3 {
+        color: #4164b4;
+        margin: 15px;
+        font-family: segoe ui
+    }
+    .rakbuku p {
+        margin: 15px
+    }
+    a.morerak {
+        width: calc(100% - 10px);
+        text-align: right;
+        float: left;
+        color: #fff;
+        background: #4164b3;
+        line-height: 35px;
+        font-family: segoe ui;
+        font-weight: 700;
+        font-size: 17px;
+        padding-right: 10px
+    }
+    #Berita h2.kustomk {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px
+    }
+    .rakbuku2 h3 {
+        color: #3a3a3a
+    }
+    .hps {
+        position: absolute;
+        top: 5px;
+        padding: 10px;
+        right: 5px;
+        cursor: pointer
+    }
+    a.morerak.momerek2 {
+        background: #b9b9b9;
+        color: #333
+    }
+    #Berita.Bookmark .ls2 {
+        width: calc(50% - 16px);
+        margin: 10px 8px
+    }
+    span.nani {
+        float: left;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        background: #4164b2;
+        cursor: pointer;
+        margin-top: 15px
+    }
+    .bge span.up {
+        bottom: unset;
+        top: 10px
+    }
+    #favorit {
+        float: left;
+        width: 100%
+    }
+    .mirip1 a.moree {
+        top: 3px;
+        right: 0
+    }
+    .botmenu2 {
+        background: #4c4c4c;
+        position: fixed;
+        bottom: 63px;
+        left: 0;
+        padding: 10px;
+        right: 0;
+        z-index: 1;
+        transition: all .8s ease;
+        box-shadow: #000 0 0 2px 0
+    }
+    .click .botmenu2 {
+        bottom: -60px
+    }
+    .chapter .tombol {
+        border: 0;
+        font-size: 12px;
+        margin-bottom: 0;
+        background: #383838;
+        padding: 5px 10px;
+        color: #e0e0e0;
+        padding-bottom: 3px
+    }
+    a.anjay {
+        float: left;
+        padding: 5px;
+        background: #4c4c4c;
+        color: #fff;
+        border-right: 2px solid #404040;
+        font-size: 22px;
+    }
+    .ls8wo {
+        overflow: auto
+    }
+    a.rl {
+        width: 25px;
+        float: left
+    }
+    a.rl:first-child svg {
+        float: left
+    }
+    a.rl svg {
+        float: right
+    }
+    .mirip1 a.moree {
+        top: 0
+    }
+    form#cari {
+        margin-bottom: 15px
+    }
+    table span.ay {
+        display: block!important;
+        line-height: 10px;
+        font-size: 11px;
+        margin-bottom: 10px;
+        margin-left: 1px;
+        color: #545454
+    }
+    nav::-webkit-scrollbar {
+        height: 5px!important;
+        background-color: #4164b2;
+        display: block
+    }
+    nav::-webkit-scrollbar-thumb {
+        background-color: #dcdcdd;
+        display: block
+    }
+    .screen svg {
+        height: 15px;
+        float: left;
+        margin-top: 2px;
+        margin-right: 5px
+    }
+    .tombol.screen {
+        float: right;
+        margin-right: 0;
+        background: #161616;
+        color: #fff;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-top: 5px;
+        border-radius: 2px;
+    }
+    .prt {
+        position: relative;
+        overflow: hidden;
+        width: 100%
+    }
+    div#history2 .ls2 {
+        width: 125px
+    }
+    div#history2 .ls2 img {
+        width: 127px;
+        height: 80px
+    }
+    div#history2 .ls2 a {
+        width: 100%
+    }
+    div#history2 .ls2 a.ls2l {
+        font-size: 12px;
+        padding: 5px 0
+    }
+    .click .loading {
+        background: #737373
+    }
+    .s1 .tombol {
+        background: #000;
+        float: right;
+        margin: 0;
+        font-size: 13px;
+        border-radius: 0;
+        padding: 5px 10px;
+    }
+    .notif {
+        position: fixed;
+        bottom: 53px;
+        line-height: 22px;
+        left: 0;
+        padding: 10px 10px;
+        right: 0;
+        background: #383838;
+        z-index: 50;
+    }
+    .notif svg {
+        height: 23px;
+        float: left;
+        margin-right: 10px;
+    }
+    .chapter .notif {
+        line-height: 18px;
+        padding: 7px 10px;
+        bottom: 56px;
+        transition: all 1s ease;
+    }
+    .chapter .notif svg {
+        height: 17px;
+    }
+    .chapter.click .notif {
+        bottom: -50px;
+    }
+    .notif a {
+        width: 100%;
+        float: left;
+        color: #4164b2;
+    }
+    .chapter #Terbaru h2 span {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    @keyframes animatekomen {
+        from {
+            bottom: -200px;
+            opacity: 1
+        }
+        to {
+            bottom: 0;
+            opacity: 1
+        }
+    }
+    @keyframes animatebottom {
+        from {
+            bottom: -100px;
+            opacity: 0
+        }
+        to {
+            bottom: 0;
+            opacity: 1
+        }
+    }
+    @keyframes lazy {
+        from {
+            bottom: -100px;
+            opacity: 0
+        }
+        to {
+            bottom: 0;
+            opacity: 1
+        }
+    }
+    body {
+        margin: 0;
+        font-family: arial;
+        font-size: 13.5px;
+        line-height: 20px;
+        color: #fff;
+        background: #16151d
+    }
+    a {
+        color: #fff;
+        text-decoration: none
+    }
+    #header {
+        width: 100%;
+        position: relative;
+        z-index: 11;
+        overflow: hidden
+    }
+    .hd2 {
+        background: #222;
+        padding: 20px 0;
+        position: relative;
+        overflow: hidden;
+        border-bottom: 2px solid #4164b2
+    }
+    .perapih {
+        width: 900px;
+        margin: 0 auto;
+        max-width: 100%;
+        /* position: relative */
+    }
+    .logo {
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 9999 0;
+        -ms-flex: 1 9999 0;
+        flex: 1 9999 0;
+        min-width: 40px;
+        overflow: hidden;
+        position: relative;
+        width: auto;
+        padding-top: 0;
+        background: 0 0;
+        text-align: unset
+    }
+    .logo {
+        float: left;
+        margin-left: 15px
+    }
+    .logo a {
+        overflow: hidden;
+        display: flex
+    }
+    .logo svg {
+        color: #4164b2;
+        height: 36px;
+        float: left
+    }
+    .logo a span {
+        font-size: 30px;
+        font-weight: 700;
+        color: #fff;
+        border-left: 1px solid #fff;
+        line-height: 34px;
+        padding-left: 10px;
+        margin-left: 10px;
+        font-family: segoe ui
+    }
+    form#search_box {
+        float: right;
+        width: 20%;
+        -webkit-box-flex: 0;
+        -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto
+    }
+    #search_box input {
+        padding: 0;
+        height: 34px;
+        float: left;
+        width: calc(100% - 70px);
+        text-align: center;
+        border-radius: 5px;
+        background: #16151d;
+        border: 1px solid #16151d;
+        color: #fff !important;
+    }
+    #search_box input.search_icon {
+        display: block;
+        width: auto;
+        margin-left: 10px;
+        height: 35px;
+        padding: 0 10px;
+        background: #4c4c4c;
+        color: #fff;
+        font-weight: 700;
+        border: none
+    }
+    ul.second_nav {
+        padding: 0;
+        position: absolute;
+        width: 420px;
+        margin-top: 0;
+        top: 0;
+        left: calc(50% - 190px);
+        -webkit-align-content: center;
+        -ms-flex-line-pack: center;
+        align-content: center;
+        height: 35px;
+        float: left;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1 0 0;
+        -ms-flex: 1 0 0;
+        flex: 1 0 0;
+        -webkit-box-pack: end;
+        -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+        list-style: none;
+        justify-content: flex-end
+    }
+    ul.second_nav li {
+        margin: 0;
+        width: calc(33.333% - 6px);
+        max-width: unset;
+        font-family: segoe ui;
+        font-size: 15px;
+        font-weight: 800;
+        text-align: center;
+        padding-bottom: 5px;
+        border-right: 2px solid #4164b2
+    }
+    ul.second_nav li svg {
+        height: 20px;
+        margin-right: 10px;
+        display: none
+    }
+    ul.second_nav li span {
+        text-align: center;
+        float: left;
+        font-size: 23px;
+        width: 100%;
+        font-weight: 600
+    }
+    nav {
+        overflow: auto;
+        width: 100%;
+        box-shadow: unset;
+        background: #222
+    }
+    nav ul {
+        width: 900px;
+        margin: 0 auto;
+        list-style: none;
+        overflow: hidden;
+        padding: 5px 0;
+        display: flex
+    }
+    nav ul li {
+        overflow: hidden;
+        float: left
+    }
+    nav ul li a {
+        padding: 8px 15px;
+        margin: 10px;
+        margin-right: 0;
+        font-size: 16px;
+        color: #fff;
+        display: grid;
+        font-weight: 600;
+        font-family: segoe ui;
+        text-align: center;
+        background: #4164b2;
+        border-radius: 5px
+    }
+    nav ul li svg {
+        height: 15px;
+        margin: 0 auto;
+        color: #4164b2;
+        margin-bottom: 2px
+    }
+    .cv {
+        background-color: #eee;
+        background-position: 50%;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover;
+        height: 340px;
+        box-shadow: rgba(0, 0, 0, .2) 0 2px 4px 0;
+        width: 900px;
+        margin: 0 auto
+    }
+    .series ul.perapih.brd {
+        padding: 0;
+        margin-top: -30px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+        /* position: relative; */
+        max-width: calc(100% - 10px)
+    }
+    h4.dip a {
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #222
+    }
+    header#Judul {
+        background: #222;
+        position: relative;
+        padding: 15px 20px;
+        margin-bottom: 10px;
+        overflow: hidden;
+        margin: 0 auto;
+        width: 860px;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    section#Informasi {
+        position: relative;
+        animation: animatebottom 1.3s;
+        border-radius: 0 0 5px 5px
+    }
+    #Judul h1 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        color: #4164b2;
+        margin-top: 8px;
+        margin-bottom: 15px
+    }
+    article p {
+        text-align: justify;
+        font-size: 13px;
+        margin-bottom: 10px
+    }
+    .series section {
+        width: calc(100% - 30px);
+        margin: 0 auto;
+        background: #222;
+        overflow: hidden;
+        margin-bottom: 10px;
+        padding: 15px;
+        border-radius: 5px;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    .ims img {
+        padding: 2px;
+        height: 290px
+    }
+    .ims {
+        text-align: center;
+        float: left;
+        margin-right: 9px
+    }
+    h4.dip {
+        margin: 0;
+        text-align: left
+    }
+    .j2 {
+        margin: 0;
+        border-left: 3px solid #ddd;
+        padding-left: 5px;
+        line-height: 15px
+    }
+    .new1 {
+        float: left;
+        margin-right: 15px;
+        border-radius: 3px;
+        background: #4164b2
+    }
+    .new1 a {
+        margin: 5px 10px;
+        float: left;
+        width: calc(100% - 18px)
+    }
+    .new1 a span:nth-child(1) {
+        font-size: 11px;
+        font-weight: 400
+    }
+    .new1 a span {
+        font-size: 14px;
+        font-weight: 700
+    }
+    table.inftable {
+        margin-top: auto;
+        width: calc(100% - 235px)
+    }
+    table.inftable td:nth-child(1) {
+        background: #4164b2;
+        font-size: 13px;
+        font-family: segoe ui;
+        font-weight: 600
+    }
+    table.inftable td {
+        /*border: 1px solid #4164b2;*/
+        line-height: 20px;
+        text-align: left;
+        padding: 5px 7px;
+        border-radius: 5px;
+    }
+    ul.genre {
+        float: left;
+        width: calc(100% - 6px);
+        padding: 0;
+        list-style: none;
+        margin-bottom: 0;
+        margin-top: 10px;
+        margin-left: 3px;
+        margin-bottom: 5px
+    }
+    ul.genre li {
+        float: left;
+        padding: 6px 11px;
+        border-radius: 1px;
+        margin-right: 5px;
+        background: #4164b2;
+        margin-top: 5px;
+        border-radius: 5px
+    }
+    ul.genre li a {
+        font-weight: 600;
+        font-family: segoe ui;
+        color: #fff;
+    }
+    .sec h2 {
+        margin: 5px 0;
+        font-size: 18px
+    }
+    table#Daftar_Chapter {
+        width: 100%
+    }
+    tbody._3Rsjq th {
+        background: #4164b2;
+        line-height: 35px;
+        border-radius: 5px
+    }
+    td.tanggalseries {
+        text-align: right;
+        font-size: 13px;
+        padding-right: 10px
+    }
+    table#Daftar_Chapter tr td {
+        border-bottom: 1px dotted #ddd;
+        line-height: 35px;
+        padding-left: 5px
+    }
+    table#Daftar_Chapter tr:last-child td {
+        border-bottom: 0
+    }
+    table#Daftar_Chapter tr td span:nth-child(1) {
+        display: none
+    }
+    .nxt {
+        padding: 10px 0;
+        color: #888;
+        background: #16151d;
+        text-align: left;
+        line-height: 30px;
+        padding-left: 14px;
+        font-size: 15px;
+        cursor: pointer
+    }
+    p.is {
+        font-size: 13px;
+        float: left;
+        width: 100%
+    }
+    .nm {
+        font-size: 12px;
+        font-weight: 700
+    }
+    .km {
+        border-bottom: 1px dotted #ddd;
+        float: left;
+        width: calc(100% - 10px);
+        margin-top: 13px;
+        padding-left: 10px
+    }
+    .km:last-child {
+        border-bottom: 0;
+        margin-bottom: 0
+    }
+    section#Chapter, section#Sinopsis, section#Spoiler {
+        position: relative;
+        border-radius: 5px
+    }
+    .tpe1_inf {
+        font-size: 14px;
+        position: absolute;
+        right: 13px;
+        font-family: segoe ui;
+        bottom: 15px;
+        font-weight: 600;
+        text-shadow: -1px 0 #f4f4f4, 0 1px #4164b2, 1px 0 #222, 0 -1px #222;
+        color: #131313
+    }
+    .gmbr1 {
+        position: relative
+    }
+    .tpe1_inf b {
+        color: #fff;
+        text-shadow: -1px 0 #242424, 0 1px #262626, 1px 0 #282828, 0 -1px #242424
+    }
+    .grd .h4 {
+        margin: 0;
+        font-size: 15px;
+        padding: 5px 0;
+        max-height: 39px;
+        overflow: hidden;
+        color: #111;
+        font-weight: 500;
+        margin-left: 10px
+    }
+    .grd p {
+        font-size: 13px;
+        text-align: justify;
+        margin: 10px;
+        margin-top: 5px;
+        color: #575757;
+        border-top: 1px dotted #ddd;
+        padding: 10px 0;
+        padding-bottom: 0
+    }
+    .grd span {
+        font-size: 13px;
+        color: #5b5b5b;
+        font-family: segoe ui
+    }
+    .vw {
+        position: absolute;
+        bottom: 10px;
+        font-size: 11px;
+        background: #222;
+        left: 8px;
+        font-weight: 700;
+        line-height: 14px;
+        padding: 2px 5px;
+        font-family: trebuchet ms, Helvetica, sans-serif
+    }
+    .series aside {
+        width: calc(100% + 14px);
+        overflow: hidden;
+        margin: -7px;
+        margin-top: 15px;
+        margin-bottom: 25px
+    }
+    .grd {
+        background: #222;
+        position: relative;
+        overflow: hidden;
+        width: calc(33.333% - 14px);
+        float: left;
+        margin: 7px;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    .grd img {
+        width: 100%
+    }
+    .grd .vw {
+        top: 8px;
+        bottom: unset
+    }
+    .mnu {
+        background: #222;
+        --T68779821: 0 1px 2px #4164b2;
+        width: calc(100% - 0px);
+        -webkit-box-shadow: #4164b2;
+        margin: 0 auto;
+        box-shadow: 0 1px 2px #4164b2;
+        margin-bottom: 10px;
+        overflow: hidden;
+        border-radius: 5px
+    }
+    button.tab {
+        margin: 0;
+        float: left;
+        line-height: 40px;
+        cursor: pointer;
+        width: 100%;
+        background: #222;
+        font-size: 15px;
+        font-weight: 700;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2;
+        border: 0;
+        color: #fff;
+    }
+    button.tab.curr {
+        background: #4164b2;
+        color: #fff
+    }
+    tbody._3Rsjq th:nth-child(1) {
+        text-align: left;
+        padding-left: 10px
+    }
+    tbody._3Rsjq th:nth-child(2) {
+        text-align: right;
+        padding-right: 10px
+    }
+    div#iframe iframe {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none
+    }
+    #iframe {
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        display: none;
+        z-index: 1000;
+        width: 500px;
+        background: #222;
+        animation: animatekomen 2s
+    }
+    #iframe span {
+        float: left;
+        width: 100%;
+        text-align: center;
+        background: #6f6f6f;
+        font-size: 17px;
+        color: #fff;
+        line-height: 40px;
+        background-image: linear-gradient(to bottom, #7d7d7d, #4c4c4c)
+    }
+    div#iframe2 {
+        float: left;
+        width: 100%
+    }
+    .ls1 img {
+        width: calc(25% - 12px);
+        float: left;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        padding: 2px
+    }
+    .ls1 img:nth-child(even) {
+        margin-left: 10px
+    }
+    #Footer {
+        background: #222;
+        padding: 15px;
+        text-align: center;
+        padding-top: 4px;
+        z-index: 999;
+        position: relative;
+        box-shadow: -1px -1px 2px #4164b2;
+        margin-top: 20px
+    }
+    #Footer svg {
+        height: 60px;
+        color: #4164b2
+    }
+    p.cp {
+        text-align: center
+    }
+    img.no-lazy {
+        animation: lazy 1s
+    }
+    section#Baca_Komik {
+        max-width: 100%;
+        overflow: hidden;
+        background: #000;
+        color: #fff;
+        padding: 40px 0;
+        min-height: 2000px
+    }
+    #Baca_Komik img {
+        display: grid;
+        margin: 0 auto;
+        min-width: 600px;
+        min-height: 100px;
+        max-width: 80%
+    }
+    .chapter ul.perapih.brd {
+        max-width: 100%;
+        padding: 10px 0;
+        list-style: none;
+        overflow: hidden
+    }
+    .series header#header {
+        margin-bottom: 0
+    }
+    header#header {
+        margin-bottom: 1px
+    }
+    .chapter ul.brd li {
+        float: left
+    }
+    .chapter h4.dip a {
+        text-shadow: unset;
+        color: #5f5f5f;
+        font-weight: 500
+    }
+    .chapter header#Judul {
+        border-radius: 10px 10px 0 0;
+        padding-bottom: 0;
+        width: 850px;
+        box-shadow: 0 0 4px 0 #222
+    }
+    .chapter #Judul h1 {
+        margin-top: 0;
+        padding-bottom: 15px;
+        font-size: 23px;
+        border-bottom: 2px solid #16151d
+    }
+    .chapter table.tbl {
+        width: 100%;
+        margin: -2px;
+        float: left;
+        margin-top: 15px
+    }
+    .chapter table.tbl tr:nth-child(1) td {
+        background: #16151d;
+        font-size: 14px;
+        width: 140px;
+        font-weight: 700;
+        color: #111
+    }
+    .chapter table.tbl td {
+        border: 1px solid #4164b2;
+        line-height: 25px;
+        padding: 5px 7px;
+        text-align: center
+    }
+    .tbl td {
+        border: 1px solid #ddd;
+        padding: 5px 10px;
+        font-family: segoe ui;
+        font-size: 13px
+    }
+    .new.new2 {
+        width: 325px;
+        overflow: hidden;
+        padding: 3px 15px;
+        margin: 15px auto
+    }
+    .new.new2 .new1.sd.rd {
+        background: #222;
+        width: calc(50% - 8px);
+        text-align: center
+    }
+    section#Baca_Komik h2 {
+        font-size: 16px
+    }
+    .chapter #Komentar {
+        width: calc(890px - 30px);
+        margin: 0 auto;
+        background: #222;
+        overflow: hidden;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 0 0 10px 10px;
+        -webkit-box-shadow: #4164b2;
+        margin-top: 0;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    #Komentar h3 {
+        margin-top: 5px
+    }
+    .chapter aside {
+        width: 900px;
+        margin: 0 auto;
+        margin-top: 15px;
+        overflow: hidden
+    }
+    img.asm.sd {
+        width: 50%;
+        border-radius: 10px;
+        float: left;
+        margin-right: 10px
+    }
+    .chapter aside .grd {
+        float: left;
+        width: calc(25% - 14px);
+        border-radius: 10px
+    }
+    .chapter aside .grd:nth-child(odd) {
+        margin-right: 7px
+    }
+    .chapter aside .grd:nth-child(even) {
+        margin-left: 7px
+    }
+    .chapter .grd .h4 {
+        margin-left: 10px;
+        margin-right: 10px
+    }
+    .sd {
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    aside h3 {
+        margin: 5px 0
+    }
+    .df p {
+        margin-top: 5px;
+        margin-bottom: 15px
+    }
+    .lanjut {
+        position: fixed;
+        bottom: 85px;
+        left: 15px;
+        z-index: 999;
+        width: 450px;
+        background: #222;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    .lanjut h2 {
+        text-align: center;
+        color: #af0000
+    }
+    .lanjut p {
+        margin: 15px;
+        text-align: justify
+    }
+    .lanjut a {
+        border-radius: 13px;
+        background: #4164b2;
+        line-height: 31px;
+        padding: 7px 12px;
+        border: 1px solid #ddd;
+        color: #fff;
+        font-weight: 700;
+        font-size: 15px
+    }
+    .cen {
+        text-align: center;
+        margin-bottom: 10px
+    }
+    div#Chapter_Berikutnya {
+        width: calc(900px - 30px);
+        margin: 0 auto;
+        background: #222;
+        overflow: hidden;
+        margin-bottom: 15px;
+        padding: 15px;
+        margin-top: 15px;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    a.nxl {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        text-align: center;
+        color: #fff;
+        font-weight: 700;
+        font-family: segoe ui;
+        font-size: 14px;
+        line-height: 35px;
+        border-radius: 2px;
+        background: #4162b2
+    }
+    span.next {
+        font-size: 15px;
+        margin-bottom: 10px;
+        float: left;
+        width: 100%
+    }
+    .brkn img {
+        float: left;
+        margin-right: 10px
+    }
+    .brkn span {
+        font-size: 12px;
+        color: #666
+    }
+    span.wo {
+        font-size: 14px;
+        font-weight: 700
+    }
+    a.la {
+        float: right;
+        font-size: 13px;
+        margin-top: 8px;
+        margin-left: 5px
+    }
+    .grd p svg {
+        height: 13px;
+        float: left;
+        margin-right: 5px;
+        margin-top: 2px
+    }
+    .grd .vw svg {
+        height: 11px;
+        float: left;
+        margin-right: 4px;
+        margin-top: 1px
+    }
+    .grd .vw.hot svg {
+        color: red
+    }
+    .topmenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        transition: all .8s ease;
+        z-index: 1
+    }
+    .topmenu svg {
+        height: 35px;
+        float: left
+    }
+    .mor {
+        background: #4164b2;
+        float: left;
+        padding: 5px 20px;
+        color: #222
+    }
+    .topmenu span {
+        float: left;
+        margin-left: 55px;
+        font-size: 16px;
+        color: #4164b3;
+        font-family: segoe ui;
+        font-weight: 600;
+        padding: 10px 0
+    }
+    .botmenu {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: fixed;
+        background: #222;
+        padding: 7px 15px;
+        transition: all .8s ease;
+        border-top: 1px solid #ddd;
+        z-index: 1
+    }
+    .nxpr svg {
+        height: 40px;
+        float: left
+    }
+    .nxpr span {
+        float: left;
+        font-size: 16px;
+        margin: 0 25px;
+        margin-top: 11px;
+        font-weight: 700
+    }
+    div#Review {
+        float: right;
+        background: #16151d;
+        padding: 10px 15px
+    }
+    .top svg {
+        height: 25px;
+        color: #000
+    }
+    .top {
+        float: right;
+        margin-right: 15px;
+        margin-top: 8px
+    }
+    .chapter .grd p {
+        text-align: left;
+        border-top: 1px solid #16151d;
+        margin-top: 3px;
+        line-height: 15px;
+        font-size: 12px;
+        color: #5b5b5b;
+        padding-top: 8px
+    }
+    .svg.hot {
+        color: red;
+        margin-left: 0
+    }
+    div#lapor {
+        position: fixed;
+        bottom: 70px;
+        left: 50px;
+        right: 50px;
+        display: none;
+        background: #333;
+        border-radius: 10px;
+        overflow: hidden
+    }
+    div#lapor span {
+        float: right;
+        color: #fff;
+        margin: 10px
+    }
+    div#lapor2 {
+        float: left;
+        width: 100%;
+        height: 100%
+    }
+    div#lapor2 iframe {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none
+    }
+    .click .botmenu {
+        bottom: -55px
+    }
+    .click .topmenu {
+        top: -60px
+    }
+    .filer2 select#filter {
+        float: left;
+        height: 33px;
+        padding-left: 7px;
+        background: #222;
+        border: 1px solid #bfbfbf;
+        margin-right: 5px
+    }
+    input.filter3 {
+        padding: 9px;
+        color: #fff;
+        font-weight: 700;
+        background: #4162b2;
+        border: none;
+        border-radius: 3px
+    }
+    .loop-nav.pag-nav, .ntah {
+        width: calc(900px - 30px);
+        margin: 15px auto;
+        background: #222;
+        padding: 15px;
+        -webkit-box-shadow: #4164b2;
+        border: 1px solid #e8e8e8
+    }
+    .index h1 {
+        margin: 0
+    }
+    .daftar {
+        background: #222;
+        padding-top: 5px;
+        border: 1px solid #e8e8e8
+    }
+    .ntah p {
+        margin: 10px 0
+    }
+    .vw2.svg.berwarna svg {
+        height: 20px;
+        color: red;
+        background: #222;
+        border: 1px solid #16151d;
+        padding: 2px;
+        border-radius: 11px
+    }
+    .bge {
+        border-bottom: 2px solid #16151d;
+        position: relative;
+        overflow: hidden;
+        margin: 15px;
+        padding-bottom: 12px
+    }
+    .bgei img {
+        width: 347px;
+        height: 181px;
+        border-radius: 5px
+    }
+    .bgei .vw {
+        bottom: 18px;
+        left: 14px;
+        border-radius: 2px
+    }
+    .vw2.svg {
+        position: absolute;
+        right: 10px;
+        top: 10px
+    }
+    .kan h3 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        color: #101010;
+        margin-top: 0;
+        margin-bottom: 4px;
+        font-size: 18px
+    }
+    .kan {
+        margin: 0
+    }
+    span.judul2 {
+        margin: 0;
+        line-height: 15px;
+        font-size: 13px
+    }
+    .bgei span.svg.rekomendasi svg {
+        height: 13px;
+        margin-right: 2px;
+        float: left;
+        color: #4164b2
+    }
+    .bgei .svg.hot {
+        float: unset
+    }
+    .bgei .svg.hot svg {
+        height: 12px;
+        float: left;
+        margin-right: 4px
+    }
+    a.next {
+        float: right
+    }
+    span.prev {
+        display: none
+    }
+    .loop-nav.pag-nav {
+        overflow: hidden
+    }
+    a.next, a.prev {
+        text-align: center;
+        color: #4164b2;
+        width: calc(50% - 7px);
+        line-height: 30px;
+        font-weight: 700;
+        padding: 5px 0;
+        background: #16151d
+    }
+    .bge:last-child {
+        border-bottom: 0
+    }
+    a.prev {
+        float: left
+    }
+    .ntah.genr {
+        overflow: hidden;
+        max-height: 162px;
+        position: relative
+    }
+    .mree {
+        position: absolute;
+        bottom: 0;
+        left: 13px;
+        right: 13px;
+        text-align: center;
+        background: #222;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 15px;
+        border-top: 1px solid #ddd;
+        color: #4164b2;
+        cursor: pointer
+    }
+    .vw, .vw2 {
+        z-index: 1
+    }
+    #halaman {
+        position: fixed;
+        top: 55px;
+        right: 10px;
+        text-shadow: -1px 0 #222, 0 1px #222, 1px 0 #222, 0 -1px #222;
+        font-weight: 700;
+        font-size: 14px;
+        background: #16151d80;
+        padding: 0 5px;
+        border: 1px solid #9b9b9b;
+        border-radius: 3px;
+        transition: all .8s ease
+    }
+    img.no-lazy2 {
+        animation: lazy .2s
+    }
+    .setting {
+        text-align: center;
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        transition: all .8s ease;
+        left: 0;
+        z-index: 2;
+        right: 0
+    }
+    select#Lazy, select#Quality {
+        height: 40px;
+        font-size: 18px;
+        border: 0;
+        color: #fff;
+        float: right;
+        background: #4164b3;
+        padding: 0 10px;
+        text-transform: lowercase;
+        font-weight: 700
+    }
+    .s1 p {
+        text-align: center;
+        float: left;
+        margin: 10px 0!important;
+        font-size: 14px
+    }
+    .s1 {
+        overflow: hidden
+    }
+    .setting ul {
+        padding: 0;
+        text-align: left;
+        font-size: 13px;
+        margin: 10px 15px;
+        list-style: none
+    }
+    .setting ol {
+        padding-left: 14px
+    }
+    .setting ul li {
+        margin-bottom: 9px
+    }
+    .setting ul ol li {
+        margin-bottom: 0
+    }
+    .click #halaman {
+        top: 15px
+    }
+    .series h4.dip {
+        margin-right: 15px
+    }
+    section#Trending {
+        overflow: hidden;
+        background: #222;
+        width: 900px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        border-top: 0;
+        border-radius: 0 0 5px 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    .ls11 {
+        background: #222;
+        float: left;
+        width: 100%
+    }
+    .ls1v {
+        position: relative
+    }
+    span.tr1 {
+        position: absolute;
+        top: 0;
+        background: #4164b2c7;
+        color: #fff;
+        font-weight: 700;
+        left: 0;
+        font-size: 11px;
+        padding: 3px 6px;
+        border-bottom-right-radius: 10px;
+        padding-right: 10px
+    }
+    .ls11 .svg.eye svg {
+        height: 14px;
+        float: left;
+        margin-right: 5px
+    }
+    .ls1j h3 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        color: #383838;
+        margin-top: 0;
+        margin-bottom: 0
+    }
+    .ls4j span, span.ls2t {
+        margin: 0;
+        line-height: 20px;
+        font-size: 13px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        float: left;
+        color: #676767;
+        font-family: segoe ui;
+        margin-left: 10px
+    }
+    .ls1j {
+        margin: 10px 15px;
+        padding-bottom: 7px;
+        margin-top: 5px
+    }
+    .ls1j p {
+        font-size: 13px;
+        margin-top: 7px
+    }
+    a.ls2a {
+        font-weight: 600;
+        padding: 7px 10px;
+        line-height: 28px;
+        font-family: segoe ui;
+        font-size: 15px;
+        border-radius: 3px;
+        color: #fff;
+        background: #4164b2
+    }
+    #Trending .perapih {
+        background: #222;
+        /* position: relative; */
+    }
+    .ls2 {
+        width: 202px;
+        float: left;
+        margin: 10px 8px;
+        overflow: hidden;
+        background: #222;
+        border-radius: 3px;
+        border: 1px solid #222;
+    }
+    .ls2 img {
+        width: calc(100% + 2px);
+        height: auto;
+        margin: -1px;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        top: 0;
+        position: absolute;
+    }
+    .ls2v {
+        position: relative;
+        overflow: hidden;
+        padding: 137% 0 0;
+    }
+    span.tr2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: #4c4c4c;
+        color: #fff;
+        font-weight: 700;
+        padding: 2px 10px;
+        border-bottom-right-radius: 11px;
+        box-shadow: rgba(86, 86, 86, .38) 0 1px 2px 0
+    }
+    .ls2j h4 a {
+        font-size: 15px;
+        font-family: segoe ui;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        float: left;
+        width: 100%;
+        line-height: 22px;
+        margin-top: 3px
+    }
+    .ls2j h4 {
+        margin: 0 10px
+    }
+    a.ls2l {
+        float: left;
+        position: relative;
+        width: calc(100% - 20px);
+        margin-top: 10px;
+        padding: 6px 0;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: arial;
+        background: #4164b2;
+        color: #fff;
+        margin-left: 10px;
+        margin-bottom: 10px
+    }
+    .ls2 span.svg.eye svg {
+        float: left;
+        height: 10px;
+        margin-right: 4px;
+        margin-top: 2px
+    }
+    .ls12 {
+        width: 1990px;
+        overflow: auto
+    }
+    .ls1v img {
+        width: 100%;
+        border-bottom: 1px solid #ddd
+    }
+    .ls2 .vw {
+        left: 10px;
+        top: 10px;
+        font-size: 11px;
+        bottom: unset;
+        font-weight: 700;
+        border-radius: 2px
+    }
+    .home header#header {
+        margin-bottom: 0
+    }
+    .home header#Title {
+        background: #222;
+        margin-bottom: 20px;
+        padding: 15px;
+        -webkit-box-shadow: #4164b2;
+        box-shadow: 0 1px 2px #4164b2;
+        margin: 13px;
+        border-left: 3px solid #4164b2
+    }
+    .home header#Title h1 {
+        font-family: segoe ui;
+        border-bottom: 2px solid #4164b2;
+        padding-bottom: 15px;
+        margin-top: 5px
+    }
+    .home header#Title p {
+        text-align: justify
+    }
+    .Manga:before, .Manhua:before, .Manhwa:before {
+        content: "";
+        width: 22px;
+        margin-right: 5px;
+        height: 15px;
+        float: left;
+        border-radius: 2px;
+        margin-top: -1px;
+        box-shadow: rgba(86, 86, 86, .38) -2px 2px 2px 0
+    }
+    .Manhwa:before {
+        background: url(https://komiku.co.id/wp-content/uploads/2020/02/Komik-Korea.jpg);
+        height: 16px;
+        background-position: 0 -1px
+    }
+    .Manga:before {
+        background: url(https://komiku.co.id/wp-content/uploads/2020/02/Komik-Jepang.jpg);
+        height: 16px;
+        background-position: 0 -1px
+    }
+    .Manhua:before {
+        background: url(https://komiku.co.id/wp-content/uploads/2020/02/Komik-China.jpg);
+        height: 16px;
+        background-position: 0 -1px
+    }
+    .ls2 .Manga, .ls2 .Manhua, .ls2 .Manhwa {
+        top: 5px;
+        right: 0;
+        position: absolute
+    }
+    .ls11 span.Manga {
+        top: 10px;
+        right: 10px;
+        position: absolute
+    }
+    .deskripsi span.svg {
+        float: unset
+    }
+    .deskripsi .svg svg {
+        height: 16px;
+        float: left;
+        margin-right: 5px
+    }
+    ul.deskripsi {
+        padding-left: 0;
+        margin-bottom: 0
+    }
+    .deskripsi li {
+        margin-bottom: 5px;
+        list-style: none
+    }
+    section.ls {
+        overflow: hidden;
+        background: #222;
+        padding-bottom: 15px;
+        margin-bottom: 25px;
+        width: 900px;
+        margin: 0 auto;
+        padding-top: 10px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2);
+        margin-top: 50px
+    }
+    .ls h2 {
+        overflow: hidden;
+        margin-bottom: 20px
+    }
+    .ls .ls12 {
+        border-top: 0;
+        margin-left: -8px
+    }
+    h3.lsh3 {
+        margin: 5px 15px;
+        float: left;
+        font-size: 20px;
+        margin-bottom: 4px;
+        width: calc(100% - 25px);
+        font-weight: 700;
+        color: #fff;
+        font-family: trebuchet ms, Helvetica, sans-serif
+    }
+    .ls .perapih {
+        /* position: relative; */
+        margin-bottom: 25px;
+        overflow: hidden
+    }
+    .ls2 .svg {
+        float: unset
+    }
+    .ls2 .svg svg {
+        height: 10px;
+        float: left;
+        margin-right: 3px;
+        margin-top: 2px
+    }
+    .home header#Title h1 {
+        font-size: 21px
+    }
+    .cv h3 {
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #fff;
+        font-size: 21px;
+        font-weight: 600;
+        font-family: arial;
+        float: left;
+        width: 60%;
+        margin-bottom: 4px;
+        margin-left: 50px
+    }
+    span.ls12t {
+        float: left;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #fff;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        width: 60%;
+        font-family: segoe ui
+    }
+    .ls12j {
+        position: absolute;
+        bottom: 0;
+        left: 15px;
+        right: 15px
+    }
+    span.tr12 svg {
+        height: 27px;
+        float: left;
+        margin-right: 2px;
+        margin-top: -2px;
+        display: none
+    }
+    span.tr12 {
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        font-size: 60px;
+        color: #fff;
+        margin-left: 4px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 34px
+    }
+    .ls123 {
+        padding: 15px;
+        overflow: hidden;
+        padding-bottom: 0
+    }
+    .ls23 {
+        position: relative;
+        float: left;
+        width: 50%;
+        margin-bottom: 15px
+    }
+    .ls23v img {
+        float: left;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        width: 80px;
+        height: 100px;
+        border: 1px solid #eaedf1
+    }
+    .tr23 svg {
+        color: red;
+        height: 12px;
+        margin-top: 4px;
+        float: left;
+        margin-right: 3px;
+        display: none
+    }
+    span.tr23 {
+        font-family: segoe ui;
+        font-weight: 400;
+        border-radius: 5px;
+        font-size: 40px;
+        color: #8c8a8a;
+        position: absolute;
+        left: 0;
+        background: #222;
+        top: 10px
+    }
+    .ls23 h4 {
+        margin-top: 5px;
+        font-family: segoe ui;
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 5px
+    }
+    span.ls23t {
+        font-size: 13px;
+        color: #848282;
+        font-family: segoe ui
+    }
+    .ls23v a {
+        float: left;
+        margin-right: 10px;
+        overflow: hidden;
+        margin-left: 40px;
+        position: relative
+    }
+    .ls23v .Manga, .ls23v .Manhua, .ls23v .Manhwa {
+        position: absolute;
+        left: 8px;
+        top: 8px
+    }
+    /* a.ls123m {
+        width: calc(100% - 10px);
+        text-align: right;
+        float: left;
+        line-height: 26px;
+        padding: 10px 0;
+        background: #fafafa;
+        font-weight: 600;
+        padding-right: 10px;
+        font-family: segoe ui;
+        margin-bottom: 1px;
+        border-top: 2px solid #e8e8e8
+    } */
+    a.ls123m {
+        width: 900px;
+        text-align: left;
+        float: left;
+        line-height: 26px;
+        padding: 10px 0;
+        background: #fafafa;
+        font-weight: 600;
+        padding-left: 10px;
+        font-family: segoe ui;
+        margin-bottom: 1px;
+        border-bottom: 2px solid #e8e8e8;
+    }
+    .ls23:last-child {
+        margin-bottom: 0
+    }
+    section h2.h2hot {
+        text-align: center;
+        font-weight: 700;
+        font-size: 25px;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        margin: 0 auto;
+        width: 900px;
+        color: #000
+    }
+    h2.h2hot svg {
+        height: 18px;
+        color: red
+    }
+    .ls123m span.svg.more svg {
+        height: 15px;
+        overflow: hidden;
+        float: right;
+        margin-top: 6px;
+        margin-left: 5px;
+        margin-right: 10px
+    }
+    span.svg.rekomendasi {
+        color: #4164b2
+    }
+    .moree .more svg {
+        height: 18px;
+        color: #888
+    }
+    a.moree {
+        position: absolute;
+        right: 20px;
+        top: 10px;
+        font-weight: 700
+    }
+    .ls3 {
+        width: calc(16.6666% - 26px);
+        float: left;
+        margin: 3px;
+        padding: 10px;
+        background: #222;
+        padding-bottom: 13px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    .ls3 img {
+        width: 100%
+    }
+    section#Genre {
+        overflow: hidden;
+        margin: 50px auto;
+        width: 905px
+    }
+    .ls3p a {
+        background: #16151d;
+        text-align: center;
+        padding: 5px 16px;
+        font-weight: 400;
+        font-family: segoe ui;
+        overflow: hidden;
+        font-size: 15px;
+        border-radius: 3px
+    }
+    .ls3p h4 {
+        color: #000;
+        margin: 5px 0;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 13px;
+        font-weight: 600;
+        font-family: segoe ui
+    }
+    .ls3p {
+        text-align: center
+    }
+    span.warna {
+        color: #fff;
+        text-shadow: -1px 0 #242424, 0 1px #262626, 1px 0 #282828, 0 -1px #242424;
+        position: absolute;
+        top: 11px;
+        right: 10px;
+        font-weight: 800;
+        font-size: 13px
+    }
+    .brt h4 {
+        margin: 0
+    }
+    .brt {
+        padding: 10px;
+        background: #16151d;
+        width: calc(50% - 28px);
+        float: left;
+        margin-bottom: 25px
+    }
+    section#Berita {
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 15px;
+        background: #222;
+        margin-bottom: 30px;
+        width: 868px;
+        margin-top: 15px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    .brt span {
+        font-size: 13px;
+        border-left: 3px solid #ddd;
+        padding-left: 5px;
+        color: #848282
+    }
+    .brt a {
+        margin-top: 0;
+        font-size: 15px;
+        font-family: segoe ui;
+        font-weight: 600;
+        line-height: 17px;
+        margin-bottom: 7px;
+        float: left;
+        width: 100%
+    }
+    section#Terbaru {
+        margin: 13px;
+        overflow: hidden;
+        width: 904px;
+        margin: 0 auto;
+        margin-top: 50px
+    }
+    .ls4 {
+        float: left;
+        width: calc(50% - 8px);
+        background: #222;
+        margin-bottom: 15px;
+        overflow: hidden;
+        position: relative;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    .ls4w {
+        overflow: hidden;
+        padding: 1px
+    }
+    .ls4v {
+        float: left;
+        margin-right: 3px;
+        position: relative
+    }
+    .ls4j h4 a {
+        font-size: 15px;
+        font-family: segoe ui;
+        font-weight: 500;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 89%;
+        float: left;
+        margin-bottom: 0;
+        margin-top: 5px
+    }
+    .ls4j h4 {
+        margin: 10px 0
+    }
+    .ls4 svg {
+        height: 9px
+    }
+    .ls4v a {
+        float: left;
+        width: 100%;
+        height: 121px
+    }
+    .ls4 .vw {
+        top: 9px;
+        left: 9px;
+        bottom: unset;
+        border-radius: 2px
+    }
+    a.ls24 {
+        background: #4164b2;
+        text-align: center;
+        color: #fff;
+        padding: 7px 20px;
+        margin-top: 11px;
+        float: left;
+        font-size: 14px;
+        font-weight: 400;
+        border-radius: 3px
+    }
+    #Terbaru h2 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-top: 0;
+        margin-bottom: 25px;
+        color: #000;
+        font-size: 25px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 16px
+    }
+    .ls112::-webkit-scrollbar, .mirip1 div::-webkit-scrollbar {
+        height: 13px!important;
+        background-color: #222
+    }
+    .ls112::-webkit-scrollbar-thumb, .mirip1 div::-webkit-scrollbar-thumb {
+        background-color: #16151d
+    }
+    .ls112 {
+        overflow: auto;
+        width: calc(100% - 30px);
+        margin: 15px;
+        padding-bottom: 5px
+    }
+    #Berita h2, #Filter h2 {
+        margin: 0;
+        font-weight: 700;
+        color: #000;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-bottom: 15px
+    }
+    a.lnn {
+        width: calc(100% - 4px);
+        float: left;
+        text-align: center;
+        font-weight: 700;
+        color: #4164b2;
+        background: #222;
+        line-height: 35px;
+        font-family: segoe ui;
+        font-size: 18px;
+        margin: 2px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    .mirip1 {
+        padding-bottom: 25px;
+        width: 924px;
+        margin: 0 auto;
+        padding-top: 7px;
+        overflow: hidden;
+        border-bottom: 5px solid #16151d;
+        margin-bottom: 30px;
+        position: relative
+    }
+    section.mirip {
+        overflow: hidden;
+        background: #222;
+        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        margin-top: 50px
+    }
+    .mirip h3 {
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-top: -5px;
+        margin-bottom: 15px;
+        color: #4768b4;
+        font-weight: 700;
+        font-size: 20px;
+        margin-left: 10px
+    }
+    .ls5 {
+        float: left;
+        margin-right: 10px;
+        position: relative;
+        width: 134px;
+        margin-bottom: 15px;
+        overflow: hidden;
+        padding-bottom: 2px;
+        margin-left: 10px
+    }
+    .ls5 h4 {
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        float: left;
+        width: 100%;
+        margin-top: 3px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 14px;
+        text-align: left
+    }
+    .ls5v a {
+        font-size: 15px;
+        font-weight: 600;
+        font-family: segoe ui
+    }
+    .ls5v img {
+        box-shadow: #e0e0e0 0 0 2px 0;
+        height: 185px;
+        border-radius: 3px;
+        width: 134px
+    }
+    .ls5b {
+        margin-bottom: 10px;
+        width: 440px;
+        overflow: hidden;
+        position: relative;
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px
+    }
+    .ls5b img {
+        float: left;
+        width: 100%;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        border-radius: 5px
+    }
+    .ls5b h4 {
+        float: left;
+        margin: 0;
+        font-family: segoe ui;
+        font-weight: 500;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        font-size: 16px;
+        color: #000
+    }
+    a.ls5a {
+        position: absolute;
+        right: 0;
+        bottom: 10px;
+        top: 10px;
+        color: #fff;
+        padding: 0 15px;
+        font-weight: 600;
+        font-size: 15px;
+        padding-top: 9px;
+        background: #4769b4;
+        border-radius: 2px
+    }
+    .ls5b2 span {
+        font-size: 13px;
+        color: #848282
+    }
+    .ls5b2 {
+        position: relative;
+        float: left;
+        padding: 10px 0;
+        padding-bottom: 6px;
+        width: 100%
+    }
+    .ls5 .Manga, .ls5 .Manhua, .ls5 .Manhwa {
+        top: 10px;
+        left: 10px;
+        position: absolute
+    }
+    .ls4 span.warna {
+        right: unset;
+        left: 9px;
+        bottom: 2px;
+        top: unset
+    }
+    .ls6 {
+        position: relative;
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 0;
+        padding-bottom: 10px
+    }
+    .ls6w {
+        width: 2400px
+    }
+    .ls6s {
+        overflow: auto
+    }
+    .ls6img {
+        position: relative
+    }
+    .ls6 .vw svg {
+        height: 10px
+    }
+    .ls6 .vw {
+        top: 8px;
+        bottom: unset
+    }
+    .ls6 .Manga, .ls6 .Manhua, .ls6 .Manhwa {
+        bottom: 15px;
+        position: absolute;
+        right: 4px
+    }
+    .ls6img img {
+        border-radius: 2px;
+        width: 260px;
+        height: 131px
+    }
+    a.ls6a {
+        position: absolute;
+        right: 0;
+        bottom: 15px;
+        padding: 7px 10px;
+        font-size: 15px;
+        background: #eaedf1;
+        border-radius: 2px
+    }
+    .ls6p h4 {
+        margin: 0;
+        font-family: segoe ui;
+        font-weight: 400;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #fff;
+        font-size: 15px;
+        overflow: hidden;
+        max-width: 138px
+    }
+    .ls6p {
+        margin-top: 5px
+    }
+    .ls6p span {
+        font-size: 12px;
+        color: #848282
+    }
+    .ls4 .Manga, .ls4 .Manhua, .ls4 .Manhwa {
+        position: absolute;
+        bottom: 10px;
+        right: 6px
+    }
+    span.ls4s {
+        width: 100%;
+        margin-left: 0;
+        line-height: 25px
+    }
+    .mirip1 p {
+        margin-bottom: 15px;
+        margin-top: -8px;
+        color: #676767
+    }
+    .ls4 img {
+        width: 143px;
+        height: auto;
+        box-shadow: #e0e0e0 0 0 2px 0;
+        margin: 10px;
+        border-radius: 5px
+    }
+    .mirip1:last-child {
+        margin-bottom: 0;
+        border-bottom: 0
+    }
+    section.mirip h2.h2hot {
+        margin-top: 10px
+    }
+    select#genre1, select#genre2 {
+        width: 40%;
+        padding: 10px
+    }
+    input.search {
+        width: calc(20% - 10px);
+        padding: 10px
+    }
+    section#Peringkat {
+        padding: 15px;
+        margin: 15px;
+        background: #222;
+        overflow: hidden;
+        width: 900px;
+        border-radius: 5px;
+        margin: 25px auto;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    .ls7nm {
+        padding: 4px 10px;
+        border-radius: 21px;
+        font-weight: 700;
+        box-shadow: 0 2px 4px 0 #222;
+        position: absolute;
+        left: 0;
+        top: 3px;
+        overflow: hidden;
+        color: #4264b2
+    }
+    .ls7 h4 {
+        margin: 0;
+        font-weight: 500;
+        color: #000;
+        margin-bottom: 3px;
+        font-size: 14px;
+        font-family: segoe ui
+    }
+    .ls7 {
+        position: relative;
+        overflow: hidden;
+        width: 50%;
+        float: left
+    }
+    .ls7v {
+        padding-left: 45px;
+        margin-bottom: 20px
+    }
+    .ls7:nth-child(n+3) .ls7nm {
+        color: #fff;
+        background: #4264b2
+    }
+    .ls7:nth-child(n+5) .ls7nm {
+        color: #000;
+        background: #f4f4f4
+    }
+    .ls7:nth-child(2) .ls7nm {
+        background: #df0204;
+        color: #222
+    }
+    .ls7v span {
+        font-size: 13px;
+        color: #676767
+    }
+    #Peringkat h2 {
+        font-weight: 500;
+        color: #000;
+        margin-top: 0;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #ddd;
+        font-family: trebuchet ms, Helvetica, sans-serif
+    }
+    .mirip1 h2 {
+        margin: 0 0 13px 0;
+        color: #000;
+        font-weight: 500;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        margin-top: 25px
+    }
+    .ls23j {
+        left: 95px;
+        top: 5px;
+        right: 0
+    }
+    span.ls5a {
+        font-size: 13px;
+        color: #848282;
+        font-weight: 400
+    }
+    .title {
+        visibility: hidden;
+        opacity: 0
+    }
+    #Navbawah {
+        position: fixed;
+        background: #222;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 10
+    }
+    #Navbawah svg {
+        height: 23px;
+        color: #4164b2
+    }
+    .navb {
+        width: 25%;
+        float: left;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 5px
+    }
+    .navb span {
+        float: left;
+        width: 100%;
+        text-align: center;
+        color: #888
+    }
+    .loading {
+        position: absolute;
+        top: -10px;
+        height: 10px;
+        right: 0;
+        left: 0;
+        background: #16151d
+    }
+    #loading {
+        height: 100%;
+        float: left;
+        background: #4c4c4c;
+        transition: width 2s
+    }
+    .new.new2 .new1.sd.rd:nth-child(2) {
+        margin-right: 0
+    }
+    section#Berita .ls112 {
+        margin: 2px;
+        margin-top: 30px;
+        width: 100%
+    }
+    #history .ls2:first-child {
+        margin-left: 0
+    }
+    .persen {
+        position: absolute;
+        top: -5px;
+        height: 5px;
+        background: 0 0;
+        left: 0;
+        right: 0
+    }
+    .persen div {
+        background: #4164b2;
+        float: left;
+        height: 100%
+    }
+    #history a.ls2l {
+        border-radius: 0
+    }
+    #Navbawah iframe {
+        border: none;
+        height: 40px
+    }
+    #tambahan {
+        position: fixed;
+        bottom: 75px;
+        left: 15px;
+        transition: all .8s ease
+    }
+    #tambahan a {
+        float: left;
+        margin-right: 8px;
+        background: #222;
+        padding: 2px 6px;
+        box-shadow: 0 1px 2px #4164b2;
+        border-radius: 1px;
+        font-size: 12px;
+        color: #6b6b6b;
+        padding-bottom: 0
+    }
+    #tambahan svg {
+        height: 13px;
+        color: #4164b1;
+        float: left;
+        margin-right: 5px;
+        margin-top: 3px
+    }
+    .click #tambahan {
+        left: -300px
+    }
+    .history section#Berita .ls112 {
+        margin-top: 0
+    }
+    .history .ls12 {
+        width: 100%;
+        margin-top: 10px
+    }
+    .history .ls2 {
+        width: calc(25% - 16px)
+    }
+    .ls2 a {
+        float: left
+    }
+    .hd2 .perapih {
+        width: unset;
+        margin: 0 50px
+    }
+    .brt:nth-child(2) {
+        margin-right: 15px
+    }
+    .ls4:nth-child(odd) {
+        margin-right: 15px
+    }
+    .ls4j {
+        float: left;
+        width: calc(100% - 185px)
+    }
+    .ls5v {
+        position: relative
+    }
+    .ls5v .vw {
+        bottom: unset;
+        top: 10px
+    }
+    .ls5v .vw svg {
+        float: left;
+        height: 11px;
+        margin-right: 3px;
+        margin-top: 1px
+    }
+    .series aside h2 {
+        margin-left: 7px
+    }
+    .series article {
+        position: relative
+    }
+    .bgei a:first-child {
+        float: left;
+        position: relative;
+        width: 40%;
+        margin-right: 15px
+    }
+    #Baca_Komik img.klazy {
+        height: auto;
+        margin-top: 0;
+    }
+    #source {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        font-size: 16px;
+        font-weight: 700;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+        color: #222
+    }
+    #history2.add {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 99999;
+        bottom: 0;
+        border-top: 1px solid #e8e8e8;
+        background: #222
+    }
+    section#Berita .add .ls112 {
+        width: 900px;
+        background: #222;
+        margin: 0 auto;
+        max-width: 100%;
+        position: relative;
+        padding: 10px 0;
+        padding-bottom: 0;
+        margin-bottom: 10px
+    }
+    div#history2 button {
+        display: none
+    }
+    #history2.add button {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 30px;
+        border: 0;
+        color: #fff;
+        text-transform: uppercase;
+        background: #4164b2;
+        font-weight: 800;
+        padding: 0 10px;
+        cursor: pointer
+    }
+    .iklan300 {
+        float: left;
+        width: 300px;
+        min-height: 223px;
+        background: #16151d;
+        position: absolute;
+        right: 10px;
+        top: 10px
+    }
+    .h2hot span {
+        background: #4164b2;
+        padding: 5px 7px;
+        color: #fff;
+        border-radius: 3px
+    }
+    .prt {
+        float: left;
+        width: 100%;
+        margin-top: 15px;
+        font-size: 20px
+    }
+    #Berita .prt h2 {
+        font-weight: 800;
+        color: #4164b2
+    }
+    div#Melayangny {
+        position: fixed;
+        bottom: 0;
+        background: #222;
+        padding: 10px 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        border-top: 1px solid #ddd
+    }
+    div#Melayangny a {
+        background: #16151d;
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0 4px;
+        padding: 5px 9px;
+        border: 1px solid #ececec
+    }
+    .melayg2 {
+        width: 100%;
+        overflow: auto;
+        padding-bottom: 10px;
+        padding-top: 10px
+    }
+    #Terbaru h2 span {
+        background: #4164b2;
+        padding: 7px 10px;
+        color: #fff;
+        border-radius: 5px
+    }
+    section#Filter {
+        overflow: hidden;
+        margin: 0 auto;
+        padding: 15px;
+        margin-top: 35px;
+        background: #222;
+        margin-bottom: 30px;
+        width: 868px;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    #Filter form.filer2 {
+        display: flex;
+        width: calc(100% + 5px);
+        margin: 0 -5px
+    }
+    #Filter form.filer2 select {
+        width: 20%;
+        margin: 0 5px;
+        background: #16151d;
+        padding-left: 5px;
+        font-size: 14px;
+        border: 0;
+        height: 40px;
+        border-radius: 3px
+    }
+    section#Filter p {
+        float: right;
+        margin-bottom: 0
+    }
+    .ls4 span.up {
+        bottom: 2px;
+        position: absolute;
+        right: 15px;
+        font-family: segoe ui;
+        font-weight: 800;
+        font-size: 12px;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: -1px 0 #242424, 0 1px #262626, 1px 0 #282828, 0 -1px #242424
+    }
+    .ls2 span.up {
+        bottom: 2px;
+        right: 8px;
+        color: #fff;
+        position: absolute;
+        font-weight: 800;
+        font-size: 11px;
+        text-transform: uppercase;
+        background: #4164b3;
+        box-shadow: 0 1px 2px #000;
+        padding: 3px 7px;
+        border-radius: 50%
+    }
+    .bge span.up {
+        color: #fff;
+        position: absolute;
+        font-weight: 800;
+        font-size: 13px;
+        text-transform: uppercase;
+        top: 10px;
+        left: 10px;
+        background: #4164b3;
+        padding: 5px 10px;
+        border-radius: 50%;
+        box-shadow: 0 1px 2px #000
+    }
+    section#Menu_Tambahan {
+        width: 910px;
+        margin: 50px auto;
+        overflow: hidden
+    }
+    #Menu_Tambahan a {
+        margin: 5px;
+        background: #222;
+        padding: 8px 10px;
+        float: left;
+        width: calc(14.25% + 22px);
+        color: #585858;
+        font-weight: 600;
+        text-align: center;
+        font-size: 12px;
+        text-transform: uppercase;
+        font-family: trebuchet ms, Helvetica, sans-serif;
+        border-radius: 5px;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2)
+    }
+    nav ul li:first-child a {
+        margin-left: 0
+    }
+    nav ul li:last-child a {
+        margin-right: 0
+    }
+    .cara {
+        margin-right: 15px;
+        float: left
+    }
+    .share {
+        float: left;
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 5px
+    }
+    .share ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex
+    }
+    .share li {
+        width: 100%;
+        text-align: center;
+        border-right: 1px solid #e4e6eb;
+        margin: 10px;
+        line-height: 23px;
+        font-family: segoe ui;
+        font-weight: 600;
+        cursor: pointer;
+        font-size: 15px
+    }
+    .share li:last-child {
+        border-right: 0
+    }
+    .topmenu .perapih {
+        background: #222;
+        overflow: hidden;
+        border-top: 0;
+        width: 890px;
+        box-shadow: 0 0 4px 0 #222
+    }
+    .click .setting {
+        top: -60px
+    }
+    article.content {
+        margin-top: 50px
+    }
+    .topmenu span span {
+        color: #4164b3
+    }
+    ul.second_nav li:last-child {
+        border-right: 0
+    }
+    a.buttnext {
+        float: left;
+        background: #4164b4;
+        padding: 10px 15px;
+        font-weight: 700;
+        color: #fff;
+        border-radius: 5px;
+        margin-bottom: 15px
+    }
+    body .click#setting {
+        top: 0
+    }
+    .tombol {
+        float: left;
+        margin-right: 10px;
+        padding: 5px 10px;
+        border: 2px solid #4164b3;
+        border-radius: 5px;
+        margin-left: 2px;
+        margin-top: 3px;
+        color: #4164b3;
+        cursor: pointer;
+        position: relative;
+    }
+    .nono {
+        border: 2px solid #a9a9a9;
+        color: #555
+    }
+    #baru3 input {
+        border: 0;
+        border-bottom: 1px solid #000;
+        width: 135px;
+        float: left
+    }
+    #baru3 {
+        background: #16151d;
+        position: absolute;
+        bottom: -40px;
+        z-index: 1;
+        height: 20px;
+        width: 200px;
+        border-radius: 5px;
+        padding: 5px 10px;
+        box-shadow: 0 1px 2px #4164b2
+    }
+    #tambahkan {
+        float: right;
+        background: #4164b3;
+        color: #fff;
+        padding: 0 5px;
+        font-size: 12px;
+        border-radius: 3px;
+        font-weight: 700
+    }
+    .wow {
+        width: 100%;
+        text-align: center;
+        height: 40px
+    }
+    #sosmed {
+        margin: -15px;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #e2e3e5;
+        background: #222;
+        overflow: hidden
+    }
+    #sosmed p {
+        margin-top: 0;
+        font-size: 14px
+    }
+    .sosmed {
+        float: left;
+        margin-right: 10px;
+        padding-right: 10px;
+        border-right: 1px solid #ddd
+    }
+    .sosmed a {
+        font-weight: 700;
+        color: #4164b4
+    }
+    .sosmed:last-child {
+        border-right: 0
+    }
+    p.tutor {
+        float: left;
+        width: 100%;
+        margin-top: 3px;
+        margin-left: 3px;
+        margin-bottom: 20px
+    }
+    .ls8 {
+        float: left
+    }
+    .ls8 {
+        width: 100%;
+        overflow: hidden;
+        margin-right: 20px
+    }
+    .ls8 .ls8v img {
+        width: calc(100% - 6px);
+        border-radius: 100%;
+        border: 2px solid #4164b4
+    }
+    .ls8w {
+        display: flex;
+        margin-bottom: 20px;
+        padding: 5px
+    }
+    .ls8:last-child {
+        margin-right: 0
+    }
+    .ls8j a {
+        font-size: 15px;
+        font-family: segoe ui;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        float: left;
+        text-align: center;
+        width: 100%;
+        line-height: 22px;
+        margin-top: 3px
+    }
+    .ls8v {
+        position: relative
+    }
+    .ls8j h4 {
+        margin: 0
+    }
+    .ls84 {
+        position: absolute;
+        bottom: 6px;
+        left: 25px;
+        right: 25px;
+        text-align: center;
+        color: #fff;
+        border-radius: 5px;
+        background: #4164b3;
+        line-height: 23px;
+        font-size: 13px;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+    span.nani {
+        float: left;
+        width: 100%;
+        line-height: 30px;
+        text-align: center;
+        background: #4164b2;
+        cursor: pointer
+    }
+    .history .ls2j h4 {
+        float: left;
+        margin-bottom: 10px;
+        width: calc(100% - 20px)
+    }
+    .rakbuku.his {
+        width: calc(100% - 14px);
+        float: left;
+        background: #16151d;
+        box-shadow: 0 1px 2px rgb(0 0 0 / .2);
+        border-radius: 5px
+    }
+    a.morerak {
+        width: calc(100% - 10px);
+        text-align: right;
+        float: left;
+        color: #fff;
+        background: #4164b3;
+        line-height: 35px;
+        font-family: segoe ui;
+        font-weight: 700;
+        font-size: 17px;
+        padding-right: 10px
+    }
+    .rakbuku h3 {
+        color: #4164b4;
+        margin: 15px;
+        font-family: segoe ui
+    }
+    .rakbuku {
+        width: calc(50% - 14px);
+        float: left;
+        margin-right: 7px;
+        background: #16151d;
+        margin-bottom: 15px;
+        margin-left: 7px;
+        border-radius: 5px;
+        position: relative;
+        overflow: hidden
+    }
+    .rakbuku p {
+        margin: 15px
+    }
+    .rakbuku2 h3 {
+        color: #3a3a3a
+    }
+    a.morerak.momerek2 {
+        background: #b9b9b9;
+        color: #333
+    }
+    #Berita h2.kustomk {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px
+    }
+    .hps {
+        position: absolute;
+        top: 5px;
+        padding: 10px;
+        right: 5px;
+        cursor: pointer
+    }
+    a.anjay {
+        float: left;
+        padding: 10px 13px;
+        background: #4164b3;
+        color: #fff;
+        font-size: 19px
+    }
+    .botmenu2 {
+        position: fixed;
+        bottom: 63px;
+        left: 0;
+        transition: all .8s ease;
+        background: #222;
+        padding: 10px;
+        right: 0;
+        border-top: 1px solid #e5e5e5
+    }
+    .botmenu2 .tombol {
+        margin-bottom: 0;
+        font-size: 12px;
+        border: 1px solid #e5e8ea;
+        background: #f1f2f5;
+        color: #555
+    }
+    .click .botmenu2 {
+        bottom: -50px
+    }
+    table span.ay {
+        display: block!important;
+        line-height: 12px;
+        font-size: 12px;
+        color: #676767;
+        margin-bottom: 10px;
+        margin-left: 2px
+    }
+    .setting .perapih {
+        width: 890px
+    }
+    .tombol.screen {
+        float: right;
+        background: #4164b4;
+        font-weight: 700;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 15px
+    }
+    .tombol.screen svg {
+        height: 19px;
+        float: left;
+        margin-right: 7px
+    }
+    .notif {
+        display: none
+    }
+    .s1 .tombol {
+        float: right;
+    }
+}

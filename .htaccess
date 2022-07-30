@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule ^manga/(.*)$ ./manga.php?komik=$1
+RewriteRule ^genre/(.*)$ ./genres.php?param=$1
+RewriteRule ^ch/(.*)$ ./readmanga.php?komik=$1
