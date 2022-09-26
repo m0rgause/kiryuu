@@ -21,7 +21,7 @@ $data = $p->home();
                         <div class="ls12">
                             <?php foreach ($data['populars'] as $popular) : ?>
                                 <div class="ls2">
-                                    <div class="ls2v"> <a href="<?= base_url() . $popular['link'] ?>"> <img class="lazy" src="#" data-src="https://cdn.statically.io/img/<?= str_replace('https://', '', $popular['image']) ?>"> </a>
+                                    <div class="ls2v"> <a href="<?= base_url() . $popular['link'] ?>"> <img class="lazy" src="#" data-src="https://proxy.duckduckgo.com/iu/?u=<?= $popular['image'] ?>"> </a>
                                     </div>
                                     <div class="ls2j">
                                         <h4>
@@ -42,7 +42,7 @@ $data = $p->home();
                 <div class="ls4w">
                     <?php foreach ($data['projects'] as $project) : ?>
                         <div class="ls4">
-                            <div class="ls4v"> <a href="<?= base_url() . $project['link'] ?>"> <img class="lazy" src="" data-src="https://cdn.statically.io/img/<?= str_replace('https://', '', $project['image']) ?>?resize=240,171"> </a>
+                            <div class="ls4v"> <a href="<?= base_url() . $project['link'] ?>"> <img class="lazy" src="" data-src="https://proxy.duckduckgo.com/iu/?u=<?= $project['image'] ?>?resize=240,171"> </a>
                                 <div class="vw">
                                     <span class="svg <?= $project['features'] ?>"></span>
                                 </div>
@@ -99,7 +99,7 @@ $data = $p->home();
                         if (index <= 8) {
                             var datakomik = JSON.parse(localStorage.getItem(item));
                             var linkch = "<?= base_url() ?>/ch/" + datakomik[4]
-                            document.getElementById('history').innerHTML += '<div class="ls2"><div class="ls2v"><a href="' + linkch + '"><img src="https://cdn.statically.io/img/' + datakomik[3].replace('https://', '') + '"></a></div><div class="ls2j"><h4><a href="' + linkch + '">' + datakomik[0] + '</a></h4><span class="ls2t">' + datakomik[1] + '</span><a href="' + linkch + '" class="ls2l">Gambar ' + datakomik[2] + '<div class="persen"><div id="' + item + '"></div></div></a></div></div>';
+                            document.getElementById('history').innerHTML += '<div class="ls2"><div class="ls2v"><a href="' + linkch + '"><img src="https://proxy.duckduckgo.com/iu/?u=' + datakomik[3] + '"></a></div><div class="ls2j"><h4><a href="' + linkch + '">' + datakomik[0] + '</a></h4><span class="ls2t">' + datakomik[1] + '</span><a href="' + linkch + '" class="ls2l">Gambar ' + datakomik[2] + '<div class="persen"><div id="' + item + '"></div></div></a></div></div>';
                             var loading = (datakomik[2] / datakomik[3]) * 100;
                             document.getElementById(item).style.width = loading + "%";
                         }
