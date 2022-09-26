@@ -244,7 +244,7 @@ class Kiryuu
         }
 
         preg_match('/ts_reader.run[(]\s*([^);]+)/', $getNextPrev, $nextprev);
-        preg_match_all("/var chapter_id = ([^;]+)/", $postid, $post_id);
+        preg_match_all("/var post_id = ([^;]+)/", $postid, $post_id);
         preg_match('/Chapter ([^ ]+)/', $html->find("div.chaptertags", 0)->innertext, $ch);
 
         $tempik = json_decode($nextprev[1], 1);

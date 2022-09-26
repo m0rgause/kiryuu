@@ -7,8 +7,9 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
     <meta name="viewport" content="width=device-width">
     <meta name="robots" content="all">
-    <title>KNTOL | Manga Manhua Manhwa</title>
+    <title>K Reader | Manga Manhua Manhwa</title>
     <meta name="description" content="KNTOL adalah website baca komik gratis berbahasa Indonesia">
+    <link rel="icon" type="image/x-icon" href="asset/images/logo.svg">
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             var e;
@@ -30,6 +31,5 @@
     </script>
     <link rel="stylesheet" href="<?= base_url() ?>/asset/css/style-v1.css">
     <script src="<?= base_url() ?>/asset/js/jquery.js"></script>
-    <link rel="icon" href="komiku.id/asset/img/ico.ico">
     <meta name="mobile-web-app-capable" content="yes">
 </head>

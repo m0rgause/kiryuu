@@ -11,8 +11,8 @@ $res = $data['result'];
 
 <body class="series" id="body">
     <?php include_once "template/nav.php" ?>
-    <div class="cv" style="background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.7)), url(<?= $res['image'] ?>?w=600&quality=60);"></div>
-    <main class="perapih">
+
+    <main class="perapih" class="margin-top:20px !important">
         <article>
             <header id="Judul">
                 <h1 itemprop="name"><?= $res['title'] ?></h1>
@@ -27,7 +27,7 @@ $res = $data['result'];
 
             <section id="Informasi">
                 <div class="ims">
-                    <img src="<?= $res['image'] ?>?w=225&quality=60">
+                    <img src="https://proxy.duckduckgo.com/iu/?u=<?= $res['image'] ?>?w=225&quality=60">
                 </div>
                 <table class="inftable">
                     <tr>
@@ -105,7 +105,7 @@ $res = $data['result'];
                         <?php foreach ($res['chapters'] as $c) : ?>
                             <tr>
                                 <td class="judulseries">
-                                    <a href="<?= base_url() . "/ch" . $c['link'] ?>" title="<?= $c['chapter'] ?>" itemprop="url">Chapter <?= $c['chapter'] ?> </a>
+                                    <a class="ch-link" href="<?= base_url() . "/ch" . $c['link'] ?>" title="<?= $c['chapter'] ?>" itemprop="url">Chapter <?= $c['chapter'] ?> </a>
                                 </td>
                                 <td class="tanggalseries"> <?= $c['released'] ?> </td>
                             </tr>

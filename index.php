@@ -16,7 +16,7 @@ $data = $p->home();
 
             <section id="Komik_Hot" class="ls">
                 <div class="perapih">
-                    <h3 class="lsh3"> Populars </h3> <a class="moree" href="<?= base_url() . "populars" ?>">lain -></a>
+                    <h3 class="lsh3" style="text-transform: capitalize !important ;"> Populars </h3> <a class="moree" href="<?= base_url() . "populars" ?>">lain -></a>
                     <div class="ls112">
                         <div class="ls12">
                             <?php foreach ($data['populars'] as $popular) : ?>
@@ -32,8 +32,6 @@ $data = $p->home();
                                     </div>
                                 </div>
                             <?php endforeach ?>
-
-
                         </div>
                     </div>
                 </div>
@@ -64,7 +62,10 @@ $data = $p->home();
                 <div class="ls4w">
                     <?php foreach ($data['new_release'] as $newR) : ?>
                         <div class="ls4">
-                            <div class="ls4v"> <a href="<?= base_url() . $newR['link'] ?>"> <img class="lazy" src="" data-src="https://cdn.statically.io/img/<?= str_replace('https://', '', $newR['image']) ?>?resize=240,171"> </a>
+                            <div class="ls4v"> <a href="<?= base_url() . $newR['link'] ?>">
+                                    <img class="lazy" src="" data-src="https://proxy.duckduckgo.com/iu/?u=<?= $newR['image'] ?>">
+                                    <!-- <img class="lazy" src="" data-src="https://cdn.statically.io/img/<?php str_replace('https://', '', $newR['image']) ?>?resize=240,171"> -->
+                                </a>
                                 <div class="vw">
                                     <span class="svg <?= $newR['features'] ?>"></span>
 
@@ -82,8 +83,8 @@ $data = $p->home();
             <section id="Berita">
                 <div id="history2">
                     <div class="ls112">
-                        <h2 style="margin-bottom: 0;">History</h2>
-                        <button onclick="document.getElementById('history2').classList.remove('add');">X Tutup</button>
+                        <h2 style="margin-bottom: 0;color:#fff;">History</h2>
+                        <button onclick="document.getElementById('history2').classList.remove('add');">X</button>
                         <div class="ls12">
                             <div id="history"></div>
                         </div>

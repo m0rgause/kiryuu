@@ -20,7 +20,7 @@ $data = $p->search($q, $page);
                 <div class="ls4w">
                     <?php foreach ($data as $newR) : ?>
                         <div class="ls4">
-                            <div class="ls4v"> <a href="<?= base_url() . $newR['link'] ?>"> <img class="lazy" src="" data-src="<?= $newR['image'] ?>?resize=240,171"> </a>
+                            <div class="ls4v"> <a href="<?= base_url() . $newR['link'] ?>"> <img class="lazy" src="" data-src="https://cdn.statically.io/img/<?= str_replace('https://', '',$newR['image']) ?>?resize=240,171"> </a>
                                 <div class="vw">
                                     <?php foreach ($newR['features'] as $f) : ?>
                                         <span class="svg <?= $f ?>"></span>
